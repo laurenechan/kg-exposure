@@ -18,7 +18,7 @@ REACTOME_SOURCES = {
 }
 
 REACTOME_CONFIGS = {
-    'ChEBI2Reactome': 'chebi2reactome.yaml',
+    'ChEBI2Reactome': 'subject2phenotype.yaml',
 
 }
 
