@@ -1,9 +1,14 @@
 import unittest
 from parameterized import parameterized
 from project_name.utils.transform_utils import guess_bl_category, collapse_uniprot_curie
-
+from project_name.transform_utils.pegs_surveys import PegsSurveysTransform
+import os
 
 class TestTransformUtils(unittest.TestCase):
+    def setUp(self) -> None:
+        self.input_dir = 'tests/resources/'
+        self.output_dir = 'tests/resources/'
+
     @parameterized.expand([
         ['', 'biolink:NamedThing'],
         ['UniProtKB', 'biolink:Protein'],
@@ -22,4 +27,12 @@ class TestTransformUtils(unittest.TestCase):
     ])
     def test_collapse_uniprot_curie(self, curie, collapsed_curie):
         self.assertEqual(collapsed_curie, collapse_uniprot_curie(curie))
+
+
+    def test_pegs_survey_transform(self):
+        t = PegsSurveysTransform(self.input_dir, self.output_dir)
+        this_output_dir = os.path.join(self.output_dir, "pegs")
+        t.run()
+        self.assertTrue(os.path.exists(this_output_dir))
+        #shutil.rmtree(this_output_dir)
 
