@@ -1,0 +1,48 @@
+name: 'subject2phenotype'
+
+format: 'csv'
+
+delimiter: ','
+
+files:
+  - './data/raw/epr_he_long_filter_1.csv'
+
+metadata: './project_name/transform_utils/pegs_survey/metadata.yaml'
+
+local_table: './project_name/transform_utils/pegs_survey/translation_map.yaml'
+
+columns:
+  - 'epr_number'
+  - 'he_flag8843'
+  - 'he_source'
+  - 'he_phase'
+  - 'he_version'
+  - '_he_gender_'
+  - 'he_date_completed'
+  - 'he_age_derived'
+  - 'variable'
+  - 'value'
+  - 'he_a001c_height_in_derived'
+  - 'he_a002_weight'
+  - 'he_bmi_derived'
+  - 'he_bmi_cat_derived'
+
+node_properties:
+  - 'id'
+  - 'category'
+  - 'source'
+  - 'description'
+
+edge_properties:
+  - 'id'
+  - 'subject'
+  - 'predicate'
+  - 'object'
+  - 'category'
+  - 'relation'
+  - 'source'
+  - 'provided_by'
+
+transform_mode: 'flat'
+
+
