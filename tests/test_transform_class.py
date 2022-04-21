@@ -2,8 +2,9 @@ import os
 from unittest import TestCase
 
 from parameterized import parameterized
-from project_name.transform import DATA_SOURCES
-from project_name.transform_utils.transform import Transform
+from kg_pegs.transform import DATA_SOURCES
+from kg_pegs.transform_utils.transform import Transform
+from kg_pegs.transform_utils.pegs_surveys.pegs_surveys import PegsSurveysTransform
 
 
 
