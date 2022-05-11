@@ -7,20 +7,17 @@ from kg_pegs.transform_utils.transform import Transform
 from koza.cli_runner import transform_source #type: ignore
 
 
-"""
-
-"""
 
 PEGS_SOURCES = {
-    # 'survey_respondent': 'testPatientEpr_he.csv',
-    # 'subject2phenotype': 'testPatientEpr_he.csv',
-    'subject2disease': 'testPatientEpr_he.csv'
+    'survey_respondent': 'testEPRsurvey_respondents.csv',
+    'subject2phenotype': 'testEPRsubject2phenotype.csv',
+    'subject2disease': 'testEPRsubject2disease.csv'
 }
 
 PEGS_CONFIGS = {
-    # 'survey_respondent': 'survey_respondents.yaml',
-    # 'subject2phenotype': 'subject2phenotype.yaml',
-    'subject2disease': 'subject2disease.yaml',
+    'survey_respondent': 'survey_respondents.yaml',
+    'subject2phenotype': 'subject2phenotype.yaml',
+    'subject2disease': 'subject2disease.yaml'
 
 }
 
