@@ -5,7 +5,7 @@ format: 'csv'
 delimiter: ','
 
 files:
-  - './data/raw/testPatientEpr_he.csv'
+  - './data/raw/survey_respondents.yaml'
 
 metadata: './kg_pegs/transform_utils/pegs_surveys/metadata.yaml'
 
