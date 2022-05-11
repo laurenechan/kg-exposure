@@ -8,19 +8,19 @@ from koza.cli_runner import transform_source #type: ignore
 
 
 """
-Reactome provides mappings to pathways in TSVs.
-Here, we transform the CHEBI to pathway mappings
-to edge and node lists using the Koza package.
+
 """
 
 PEGS_SOURCES = {
-    'survey_respondent': 'testPatientEpr_he.csv',
-    'subject2phenotype': 'testPatientEpr_he.csv'
+    # 'survey_respondent': 'testPatientEpr_he.csv',
+    # 'subject2phenotype': 'testPatientEpr_he.csv',
+    'subject2disease': 'testPatientEpr_he.csv'
 }
 
 PEGS_CONFIGS = {
-    'survey_respondent': 'survey_respondents.yaml',
-    'subject2phenotype': 'subject2phenotype.yaml'
+    # 'survey_respondent': 'survey_respondents.yaml',
+    # 'subject2phenotype': 'subject2phenotype.yaml',
+    'subject2disease': 'subject2disease.yaml',
 
 }
 

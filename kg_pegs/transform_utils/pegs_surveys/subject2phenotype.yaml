@@ -21,9 +21,9 @@ columns:
   - 'he_b014_congestive_heart_failure'
   - 'he_b017_blood_clots'
   - 'he_b019_stroke_mini'
-  - 'he_b020_stroke'
-  - 'he_b020a_stroke_type'
-  - 'he_c023c_thyroid_enlarged'
+  - 'he_b020_stroke_PARQ'
+  - 'he_b020a_stroke_type_CHILDQ'
+  - 'he_c023c_thyroid_enlarged_CHILDQ'
   - 'he_e032_migraine'
   - 'he_f037_celiac'
   - 'he_f038_lactose_intolerance'
@@ -40,18 +40,12 @@ columns:
   - 'he_j062_bone_loss'
   - 'he_j063_osteoporosis'
   - 'he_j065_myositis'
-  - 'he_j066_rheu_arthritis'
-  - 'he_j067_osteoarthritis'
+  - 'he_j066_rheu_arthritis_PARQ'
+  - 'he_j067_osteoarthritis_PARQ'
   - 'he_k070_eczema'
   - 'he_k071_urticaria'
   - 'he_m091_uterine_tumors'
   - 'he_m092_ovarian_cysts'
-
-node_properties:
-  - 'id'
-  - 'category'
-  - 'source'
-  - 'description'
 
 edge_properties:
   - 'id'
