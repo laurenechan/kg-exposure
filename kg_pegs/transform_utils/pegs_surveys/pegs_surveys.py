@@ -11,14 +11,17 @@ from koza.cli_runner import transform_source #type: ignore
 PEGS_SOURCES = {
     'survey_respondent': 'testEPRsurvey_respondents.csv',
     'subject2phenotype': 'testEPRsubject2phenotype.csv',
-    'subject2disease': 'testEPRsubject2disease.csv'
+    'subject2disease': 'testEPRsubject2disease.csv',
+    'subject2exposure': 'testEPRsubject2exposure.csv',
+    'subject2medaction': 'testEPRsubject2medaction.csv'
 }
 
 PEGS_CONFIGS = {
     'survey_respondent': 'survey_respondents.yaml',
     'subject2phenotype': 'subject2phenotype.yaml',
-    'subject2disease': 'subject2disease.yaml'
-
+    'subject2disease': 'subject2disease.yaml',
+    'subject2exposure': 'subject2exposure.yaml',
+    'subject2medaction': 'subject2medaction.yaml'
 }
 
 
