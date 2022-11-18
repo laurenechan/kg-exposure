@@ -1,0 +1,31 @@
+name: 'subject2process'
+
+format: 'csv'
+
+delimiter: ','
+
+files:
+  - './data/raw/testEPRsubject2process.csv'
+
+metadata: './kg_pegs/transform_utils/pegs_surveys_he/metadata.yaml'
+
+local_table: './kg_pegs/transform_utils/pegs_surveys_he/translation_map_he.yaml'
+
+columns:
+  - 'epr_number'
+  - 'he_m085_menopause_PARQ'
+
+
+edge_properties:
+  - 'id'
+  - 'subject'
+  - 'predicate'
+  - 'object'
+  - 'category'
+  - 'relation'
+  - 'source'
+  - 'provided_by'
+
+transform_mode: 'flat'
+
+

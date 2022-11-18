@@ -1,0 +1,31 @@
+name: 'subject2exposure'
+
+format: 'csv'
+
+delimiter: ','
+
+files:
+  - './data/raw/ExpA/testEPRsubject2exposure.csv'
+
+metadata: './kg_pegs/transform_utils/pegs_surveys_exposomeA/metadata.yaml'
+
+local_table: './kg_pegs/transform_utils/pegs_surveys_he/translation_map_ExpA.yaml'
+
+columns: # finish up the translation map and copy these columns in
+  - 'epr_number'
+  -
+
+
+edge_properties:
+  - 'id'
+  - 'subject'
+  - 'predicate'
+  - 'object'
+  - 'category'
+  - 'relation'
+  - 'source'
+  - 'provided_by'
+
+transform_mode: 'flat'
+
+

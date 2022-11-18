@@ -13,7 +13,8 @@ PEGS_SOURCES = {
     'subject2phenotype': 'testEPRsubject2phenotype.csv',
     'subject2disease': 'testEPRsubject2disease.csv',
     'subject2exposure': 'testEPRsubject2exposure.csv',
-    'subject2medaction': 'testEPRsubject2medaction.csv'
+    'subject2medaction': 'testEPRsubject2medaction.csv',
+    'subject2process': 'testEPRsubject2process.csv'
 }
 
 PEGS_CONFIGS = {
@@ -21,20 +22,21 @@ PEGS_CONFIGS = {
     'subject2phenotype': 'subject2phenotype.yaml',
     'subject2disease': 'subject2disease.yaml',
     'subject2exposure': 'subject2exposure.yaml',
-    'subject2medaction': 'subject2medaction.yaml'
+    'subject2medaction': 'subject2medaction.yaml',
+    'subject2process': 'subject2process.yaml'
 }
 
 
 TRANSLATION_TABLE = "./kg_pegs/transform_utils/translation_table.yaml"
-LOCAL_TABLE = "./kg_pegs/transform_utils/pegs_surveys/translation_map.yaml"
+LOCAL_TABLE = "./kg_pegs/transform_utils/pegs_surveys_he/translation_map_he.yaml"
 
 
 class PegsSurveysTransform(Transform):
-    """ This transform handles the Pegs Survey Subject 2 Phenotype Association INgest
+    """ This transform handles the Pegs Survey Subject 2 Phenotype Association Ingest
     """
 
     def __init__(self, input_dir: str = None, output_dir: str = None) -> None:
-        source_name = "pegs_surveys"
+        source_name = "pegs_surveys_he"
         super().__init__(source_name, input_dir, output_dir)
 
     def run(self, pegs_file: Optional[str] = None) -> None:  # type: ignore
@@ -58,7 +60,7 @@ class PegsSurveysTransform(Transform):
         Pegs parser
         """
         print(f"Parsing {data_file}")
-        config = os.path.join("kg_pegs/transform_utils/pegs_surveys/",
+        config = os.path.join("kg_pegs/transform_utils/pegs_surveys_he/",
                               PEGS_CONFIGS[source])
         output = self.output_dir
         # If source is unknown then we aren't going to guess

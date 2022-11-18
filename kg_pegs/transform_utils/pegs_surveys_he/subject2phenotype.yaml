@@ -7,9 +7,9 @@ delimiter: ','
 files:
   - './data/raw/testEPRsubject2phenotype.csv'
 
-metadata: './kg_pegs/transform_utils/pegs_surveys/metadata.yaml'
+metadata: './kg_pegs/transform_utils/pegs_surveys_he/metadata.yaml'
 
-local_table: './kg_pegs/transform_utils/pegs_surveys/translation_map.yaml'
+local_table: './kg_pegs/transform_utils/pegs_surveys_he/translation_map_he.yaml'
 
 columns:
   - 'epr_number'

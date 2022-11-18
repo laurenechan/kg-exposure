@@ -7,7 +7,7 @@ delimiter: ','
 files:
   - './data/raw/testEPRsurvey_respondents.csv'
 
-metadata: './kg_pegs/transform_utils/pegs_surveys/metadata.yaml'
+metadata: './kg_pegs/transform_utils/pegs_surveys_he/metadata.yaml'
 
 columns:
   - 'epr_number'
