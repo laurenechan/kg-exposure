@@ -1,0 +1,33 @@
+name: 'subject2medaction'
+
+format: 'csv'
+
+delimiter: ','
+
+files:
+  - './data/raw/testEPRsubject2medaction.csv'
+
+metadata: './kg_pegs/transform_utils/pegs_surveys_he/metadata.yaml'
+
+local_table: './kg_pegs/transform_utils/pegs_surveys_he/translation_map_he.yaml'
+
+columns:
+  - 'epr_number'
+  - 'he_c022b_diabetes_insulin_CHILDQ'
+  - 'he_c022d_diabetes_pills_CHILDQ'
+  - 'he_m083_hysterectomy'
+  - 'he_m084_ovaries_PARQ'
+
+edge_properties:
+  - 'id'
+  - 'subject'
+  - 'predicate'
+  - 'object'
+  - 'category'
+  - 'relation'
+  - 'source'
+  - 'provided_by'
+
+transform_mode: 'flat'
+
+

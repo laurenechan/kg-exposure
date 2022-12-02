@@ -29,28 +29,39 @@ class SourceProcessing(object):
 
 
 
-sp_he = SourceProcessing("data/raw/testPatientEpr_he_random_1.csv")
+sp_he = SourceProcessing("data/raw/epr_he/testPatientEpr_he_random_1.csv")
+
 # phenotypes
-sp_he.load_ingest_config("kg_pegs/transform_utils/pegs_surveys/subject2phenotype.yaml")
-sp_he.return_ingest_specific_file("data/raw/", "subject2phenotype")
-#diseases
-sp_he.load_ingest_config("kg_pegs/transform_utils/pegs_surveys/subject2disease.yaml")
-sp_he.return_ingest_specific_file("data/raw/", "subject2disease")
-#respondent nodes
-sp_he.load_ingest_config("kg_pegs/transform_utils/pegs_surveys/survey_respondents.yaml")
-sp_he.return_ingest_specific_file("data/raw/", "survey_respondents")
+sp_he.load_ingest_config("kg_pegs/transform_utils/pegs_surveys_he/subject2phenotype.yaml")
+sp_he.return_ingest_specific_file("data/raw/epr_he/", "subject2phenotype")
+# diseases
+sp_he.load_ingest_config("kg_pegs/transform_utils/pegs_surveys_he/subject2disease.yaml")
+sp_he.return_ingest_specific_file("data/raw/epr_he/", "subject2disease")
+# respondent nodes
+sp_he.load_ingest_config("kg_pegs/transform_utils/pegs_surveys_he/survey_respondents.yaml")
+sp_he.return_ingest_specific_file("data/raw/epr_he/", "survey_respondents")
 
-#exposures
-sp_he.load_ingest_config("kg_pegs/transform_utils/pegs_surveys/subject2exposure.yaml")
-sp_he.return_ingest_specific_file("data/raw/", "subject2exposure")
+# exposures
+sp_he.load_ingest_config("kg_pegs/transform_utils/pegs_surveys_he/subject2exposure.yaml")
+sp_he.return_ingest_specific_file("data/raw/epr_he/", "subject2exposure")
 
-#medical actions
-sp_he.load_ingest_config("kg_pegs/transform_utils/pegs_surveys/subject2medaction.yaml")
-sp_he.return_ingest_specific_file("data/raw/", "subject2medaction")
+# medical actions
+sp_he.load_ingest_config("kg_pegs/transform_utils/pegs_surveys_he/subject2medaction.yaml")
+sp_he.return_ingest_specific_file("data/raw/epr_he/", "subject2medaction")
+
+# biological process
+sp_he.load_ingest_config("kg_pegs/transform_utils/pegs_surveys_he/subject2process.yaml")
+sp_he.return_ingest_specific_file("data/raw/epr_he/", "subject2process")
 
 
+# # exposome A (external) survey
+# sp_expA = SourceProcessing("data/raw/data/raw/testPatientEpr_expA.csv")
 #
-# # exposome 1 survey
-# sp_exp1 = SourceProcessing("data/raw/testPatientEpr_exp1_random_1.csv")
-# sp_exp1.load_ingest_config("kg_pegs/transform_utils/pegs_surveys/subject2exposure.yaml")
-# sp_exp1.return_ingest_specific_file("data/raw/", "subject2exposure")
+# sp_expA.load_ingest_config("kg_pegs/transform_utils/pegs_surveys_ExpA/subject2exposure.yaml")
+# sp_expA.return_ingest_specific_file("data/raw/epr_expA", "subject2exposure")
+#
+# # exposome B (internal) survey
+# sp_expB = SourceProcessing("data/raw/testPatientEpr_expB.csv")
+#
+# sp_expB.load_ingest_config("kg_pegs/transform_utils/pegs_surveys_ExpB/subject2exposure.yaml")
+# sp_expB.return_ingest_specific_file("data/raw/epr_expB", "subject2exposure")

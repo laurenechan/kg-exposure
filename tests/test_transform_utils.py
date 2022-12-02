@@ -1,7 +1,7 @@
 import unittest
 from parameterized import parameterized
 from kg_pegs.utils.transform_utils import guess_bl_category, collapse_uniprot_curie
-from kg_pegs.transform_utils.pegs_surveys import PegsSurveysTransform
+from kg_pegs.transform_utils.pegs_surveys_he import PegsSurveysTransform
 import os
 
 class TestTransformUtils(unittest.TestCase):

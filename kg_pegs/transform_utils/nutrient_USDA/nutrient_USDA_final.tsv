@@ -1,0 +1,132 @@
+document_id	matched_term	object_label	object_id
+1002	nitrogen	nitrogen atom	CHEBI:25555
+1003	protein	protein	CHEBI:36080
+1004	lipid	lipid	CHEBI:18059
+1005	carbohydrate	carbohydrate	CHEBI:16646
+1009	starch	starch	CHEBI:28017
+1010	sucrose	sucrose	CHEBI:17992
+1011	glucose	glucose	CHEBI:17234
+1012	fructose	fructose	CHEBI:28757
+1013	lactose	lactose	CHEBI:17716
+1014	maltose	maltose	CHEBI:17306
+1050	carbohydrate	carbohydrate	CHEBI:16646
+1051	water	water	CHEBI:15377
+1075	galactose	galactose	CHEBI:28260
+1087	calcium	calcium atom	CHEBI:22984
+1089	iron	iron atom	CHEBI:18248
+1090	magnesium	magnesium atom	CHEBI:25107
+1091	phosphorus	phosphorus atom	CHEBI:28659
+1092	potassium	potassium atom	CHEBI:26216
+1093	sodium	sodium atom	CHEBI:26708
+1094	sulfur	sulfur atom	CHEBI:26833
+1095	zinc	zinc atom	CHEBI:27363
+1097	cobalt	cobalt atom	CHEBI:27638
+1098	copper	copper atom	CHEBI:28694
+1100	iodine	iodine atom	CHEBI:24859
+1101	manganese	manganese atom	CHEBI:18291
+1102	molybdenum	molybdenum atom	CHEBI:28685
+1103	selenium	selenium atom	CHEBI:27568
+1104	vitamin a	vitamin a	CHEBI:12777
+1105	retinol	retinol	CHEBI:50211
+1106	vitamin a	vitamin a	CHEBI:12777
+1107	beta-carotene	beta-carotene	CHEBI:17579
+1108	apha carotene	apha carotene	CHEBI:28425
+1109	vitamin e	vitamin e	CHEBI:33234
+1110	vitamin d	vitamin d	CHEBI:27300
+1111	vitamin d2	vitamin d2	CHEBI:28934
+1112	vitamin d3	calciol	CHEBI:28940
+1113	25-hydroxycholecalciferol	calcidiol	CHEBI:17933
+1114	vitamin d	vitamin d	CHEBI:27300
+1116	phytoene	phytoene	CHEBI:26119
+1117	phytofluene	phytofluene	CHEBI:26120
+1120	cryptoxanthin	beta-cryptoxanthin	CHEBI:10362
+1122	lycopene	lycopene	CHEBI:15948
+1123	lutein	lutein	CHEBI:28838
+1123	zeaxanthin	zeaxanthin	CHEBI:27547
+1124	vitamin e	vitamin e	CHEBI:33234
+1125	beta tocopherol	beta tocopherol	CHEBI:47771
+1126	gamma tocopherol	gamma tocopherol	CHEBI:18185
+1127	delta tocopherol	delta tocopherol	CHEBI:47772
+1128	alpha tocotrienol	alpha tocotrienol	CHEBI:33270
+1129	beta tocotrienol	beta tocotrienol	CHEBI:33275
+1130	gamma tocotrienol	gamma tocotrienol	CHEBI:33277
+1131	delta tocotrienol	delta tocotrienol	CHEBI:33276
+1137	boron	boron atom	CHEBI:27560
+1146	nickel	nickel atom	CHEBI:28112
+1162	vitamin c	vitamin c	CHEBI:176783
+1165	thiamin	vitamin b1	CHEBI:26948
+1166	riboflavin	riboflavin	CHEBI:17015
+1167	niacin	nicotinic acid	CHEBI:15940
+1170	pantothenic acid	pantothenic acid	CHEBI:7916
+1175	vitamin b-6	vitamin b6	CHEBI:27306
+1177	folate	folic acid	CHEBI:27470
+1178	vitamin b-12	vitamin b12	CHEBI:176843
+1180	choline	choline	CHEBI:15354
+1183	vitamin k	vitamin k	CHEBI:28384
+1183	menaquinone-4	menaquinone-4	CHEBI:78277
+1184	vitamin k	vitamin k	CHEBI:28384
+1185	phylloquinone	phylloquinone	CHEBI:18067
+1188	(6s)-5 methyltetrahydrofolic acid	(6s)-5 methyltetrahydrofolic acid	CHEBI:136009
+1191	10-formldihydrofolic acid	10-formldihydrofolic acid	CHEBI:15634
+1192	5-formyltetrahydrofolic acid	5-formyltetrahydrofolic acid	CHEBI:15640
+1194	choline	choline	CHEBI:15354
+1195	phosphocholine	phosphocholine	CHEBI:18132
+1196	phosphatidylcholine	phosphatidylcholine	CHEBI:64482
+1197	glycerophosphocholine	glycerophosphocholine	CHEBI:36313
+1198	betaine	glycine betaine	CHEBI:17750
+1199	sphingomyelin	sphingomyelin	CHEBI:64583
+1210	tryptophan	tryptophan	CHEBI:27897
+1211	threonine	threonine	CHEBI:26986
+1212	isoleucine	isoleucine	CHEBI:24898
+1213	leucine	leucine	CHEBI:25017
+1214	lysine	lysine	CHEBI:25094
+1215	methionine	methionine	CHEBI:16811
+1216	cystine	cystine	CHEBI:17376
+1217	phenylalanine	phenylalanine	CHEBI:28044
+1218	tyrosine	tyrosine	CHEBI:18186
+1219	valine	valine	CHEBI:27266
+1220	arginine	arginine	CHEBI:29016
+1221	histidine	histidine	CHEBI:27570
+1222	alanine	alanine	CHEBI:16449
+1223	aspartic acid	aspartic acid	CHEBI:22660
+1224	glutamic acid	glutamic acid	CHEBI:18237
+1225	glycine	glycine	CHEBI:15428
+1226	proline	proline	CHEBI:26271
+1227	serine	serine	CHEBI:17822
+1228	hydroxyproline	hydroxyproline	CHEBI:24741
+1232	cysteine	cysteine	CHEBI:15356
+1253	cholesterol	cholesterol	CHEBI:16113
+1257	fatty acids	fatty acid	CHEBI:35366
+1258	saturated fatty acid	saturated fatty acid	CHEBI:26607
+1259	sfa 4:0	sfa 4:0	CHEBI:78115
+1260	sfa 6:0	sfa 6:0	CHEBI:78116
+1261	sfa 8:0	sfa 8:0	CHEBI:78117
+1262	sfa 10:0	sfa 10:0	CHEBI:78118
+1263	sfa 12:0	sfa 12:0	CHEBI:78119
+1264	sfa 14:0	sfa 14:0	CHEBI:78121
+1265	sfa 16:0	sfa 16:0	CHEBI:78123
+1266	sfa 18:0	sfa 18:0	CHEBI:78125
+1267	sfa 20:0	sfa 20:0	CHEBI:78126
+1268	mufa 18:1	monounsaturated fatty acid	CHEBI:140948
+1269	fatty acid 18:2	fatty acid 18:2	CHEBI:78150
+1270	PUFA 18:3	PUFA 18:3	CHEBI:132502
+1271	PUFA 20:4	PUFA 20:4	CHEBI:132539
+1272	PUFA 22:6 n-3 (DHA)	PUFA 22:6 n-3 (DHA)	CHEBI:36005
+1273	SFA 22:0	SFA 22:0	CHEBI:78127
+1276	PUFA 18:4	PUFA 18:4	CHEBI:132503
+1277	MUFA 20:1	MUFA 20:1	CHEBI:132538
+1279	MUFA 22:1	MUFA 22:1	CHEBI:132541
+1280	PUFA 22:5 n-3 (DPA)	PUFA 22:5 n-3 (DPA)	CHEBI:61204
+1292	"Fatty acids, total monounsaturated"	"Fatty acids, total monounsaturated"	CHEBI:25413
+1293	"Fatty acids, total polyunsaturated"	"Fatty acids, total polyunsaturated"	CHEBI:26208
+1299	SFA 15:0	SFA 15:0	CHEBI:78122
+1300	SFA 17:0	SFA 17:0	CHEBI:78124
+1301	SFA 24:0	SFA 24:0	CHEBI:78128
+1323	MUFA 17:1	MUFA 17:1	CHEBI:140946
+1325	PUFA 20:3	PUFA 20:3	CHEBI:36036
+1334	PUFA 22:2	PUFA 22:2	CHEBI:140959
+1411	PUFA 22:4	PUFA 22:4	CHEBI:132542
+2004	SFA 7:0	SFA 7:0	CHEBI:141070
+2005	SFA 9:0	SFA 9:0	CHEBI:141072
+2006	SFA 21:0	SFA 21:0	CHEBI:78893
+2007	SFA 23:0	SFA 23:0	CHEBI:141094

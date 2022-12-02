@@ -1,0 +1,24 @@
+name: 'survey_respondents'
+
+format: 'csv'
+
+delimiter: ','
+
+files:
+  - './data/raw/testEPRsurvey_respondents.csv'
+
+metadata: './kg_pegs/transform_utils/pegs_surveys_he/metadata.yaml'
+
+columns:
+  - 'epr_number'
+
+node_properties:
+  - 'id'
+  - 'category'
+  - 'source'
+  - 'description'
+
+
+transform_mode: 'flat'
+
+

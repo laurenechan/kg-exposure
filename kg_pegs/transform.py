@@ -4,7 +4,7 @@ import logging
 from typing import List
 
 from kg_pegs.transform_utils.ontology.ontology_transform import ONTOLOGIES
-from kg_pegs.transform_utils.pegs_surveys.pegs_surveys import PegsSurveysTransform
+from kg_pegs.transform_utils.pegs_surveys_he.pegs_surveys_he import PegsSurveysTransform
 
 DATA_SOURCES = {
     'PegsSurveysTransform': PegsSurveysTransform
