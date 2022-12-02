@@ -1,0 +1,601 @@
+document_id	matched_term	object_label	object_id
+1002	nitrogen	dinitrogen	CHEBI:17997
+1002	nitrogen	nitrogen atom	CHEBI:25555
+1003	protein	protein	CHEBI:36080
+1003	protein	protein polypeptide chain	CHEBI:16541
+1004	lipid	lipid	CHEBI:18059
+1005	carbohydrate	carbohydrate	CHEBI:16646
+1007	ash	hydridoarsenic(2.) (triplet)	CHEBI:33104
+1009	starch	starch	CHEBI:28017
+1010	sucrose	sucrose	CHEBI:17992
+1011	glucose	glucose	CHEBI:17234
+1011	glucose	d-glucopyranose	CHEBI:4167
+1011	glucose	aldehydo-d-glucose	CHEBI:42758
+1011	dextrose	d-glucopyranose	CHEBI:4167
+1011	dextrose	aldehydo-d-glucose	CHEBI:42758
+1011	dextrose	d-glucose	CHEBI:17634
+1012	fructose	fructose	CHEBI:28757
+1012	fructose	beta-d-fructofuranose	CHEBI:28645
+1013	lactose	lactose	CHEBI:17716
+1013	lactose	alpha-lactose	CHEBI:36219
+1013	lactose	beta-lactose	CHEBI:36218
+1014	maltose	maltose	CHEBI:17306
+1014	maltose	alpha-maltose	CHEBI:18167
+1050	carbohydrate	carbohydrate	CHEBI:16646
+1051	water	water	CHEBI:15377
+1075	galactose	galactose	CHEBI:28260
+1087	calcium	calcium atom	CHEBI:22984
+1087	calcium	calcium(0)	CHEBI:29320
+1087	ca	calcium atom	CHEBI:22984
+1089	iron	iron atom	CHEBI:18248
+1089	fe	phe-glu	CHEBI:74712
+1089	fe	iron atom	CHEBI:18248
+1090	magnesium	magnesium atom	CHEBI:25107
+1090	mg	magnesium atom	CHEBI:25107
+1091	phosphorus	phosphorus atom	CHEBI:28659
+1091	phosphorus	tetraphosphorus	CHEBI:35895
+1091	p	l-proline residue	CHEBI:50342
+1091	p	l-proline	CHEBI:17203
+1091	p	phosphorus atom	CHEBI:28659
+1092	potassium	potassium atom	CHEBI:26216
+1092	k	l-lysine residue	CHEBI:29967
+1092	k	l-lysine	CHEBI:18019
+1092	k	lysine	CHEBI:25094
+1092	k	potassium atom	CHEBI:26216
+1093	sodium	sodium atom	CHEBI:26708
+1093	na	sodium atom	CHEBI:26708
+1094	sulfur	polysulfur	CHEBI:17909
+1094	sulfur	sulfur atom	CHEBI:26833
+1094	s	l-serine residue	CHEBI:29999
+1094	s	l-serine	CHEBI:17115
+1094	s	polysulfur	CHEBI:17909
+1094	s	sulfur atom	CHEBI:26833
+1095	zinc	zinc atom	CHEBI:27363
+1095	zinc	zinc(0)	CHEBI:30185
+1095	zn	zinc atom	CHEBI:27363
+1097	cobalt	chlorpyrifos	CHEBI:34631
+1097	cobalt	cobalt atom	CHEBI:27638
+1097	co	cobalt atom	CHEBI:27638
+1098	cu	copper(ii) sulfide	CHEBI:51110
+1098	copper	copper atom	CHEBI:28694
+1098	copper	copper(0)	CHEBI:30052
+1098	cu	copper atom	CHEBI:28694
+1100	iodine	diiodine	CHEBI:17606
+1100	iodine	iodine atom	CHEBI:24859
+1100	i	l-isoleucine residue	CHEBI:30009
+1100	i	l-isoleucine	CHEBI:17191
+1100	i	iodine atom	CHEBI:24859
+1101	mn	met-asn-ser	CHEBI:137270
+1101	manganese	manganese atom	CHEBI:18291
+1101	manganese	manganese(0)	CHEBI:35154
+1101	mn	met-asn	CHEBI:141442
+1101	mn	manganese atom	CHEBI:18291
+1102	molybdenum	molybdenum atom	CHEBI:28685
+1102	mo	molybdenum atom	CHEBI:28685
+1103	selenium	selenium atom	CHEBI:27568
+1103	se	ser-glu	CHEBI:74813
+1103	se	selenium atom	CHEBI:27568
+1104	vitamin	vitamin (role)	CHEBI:33229
+1104	vitamin a	vitamin a	CHEBI:12777
+1104	vitamin a	all-trans-retinol	CHEBI:17336
+1104	a	l-alanine residue	CHEBI:46217
+1104	a	l-alanine	CHEBI:16977
+1104	a	acceptor	CHEBI:15339
+1104	a	adenine	CHEBI:16708
+1104	a	adenosine residue	CHEBI:62885
+1104	a	alanine	CHEBI:16449
+1104	a	hydrogen acceptor	CHEBI:13193
+1105	retinol	retinol	CHEBI:50211
+1105	retinol	13-cis-retinol	CHEBI:45479
+1105	retinol	all-trans-retinol	CHEBI:17336
+1106	vitamin	vitamin (role)	CHEBI:33229
+1106	vitamin a	vitamin a	CHEBI:12777
+1106	vitamin a	all-trans-retinol	CHEBI:17336
+1106	a	l-alanine residue	CHEBI:46217
+1106	a	l-alanine	CHEBI:16977
+1106	a	acceptor	CHEBI:15339
+1106	a	adenine	CHEBI:16708
+1106	a	adenosine residue	CHEBI:62885
+1106	a	alanine	CHEBI:16449
+1106	a	hydrogen acceptor	CHEBI:13193
+1107	carotene	carotene	CHEBI:23042
+1107	beta	electron	CHEBI:10545
+1108	carotene	carotene	CHEBI:23042
+1108	alpha	alpha-particle	CHEBI:30216
+1109	vitamin	vitamin (role)	CHEBI:33229
+1109	vitamin e	vitamin e	CHEBI:33234
+1109	alpha-tocopherol	alpha-tocopherol	CHEBI:22470
+1109	tocopherol	tocopherol	CHEBI:27013
+1109	vitamin e	(r,r,r)-alpha-tocopherol	CHEBI:18145
+1109	e	l-glutamic acid residue	CHEBI:29972
+1109	e	l-glutamic acid	CHEBI:16015
+1109	e	glutamic acid	CHEBI:18237
+1109	alpha	alpha-particle	CHEBI:30216
+1109	alpha-tocopherol	(r,r,r)-alpha-tocopherol	CHEBI:18145
+1110	vitamin	vitamin (role)	CHEBI:33229
+1110	vitamin d	vitamin d	CHEBI:27300
+1110	vitamin d	24,25-dihydroxyvitamin d	CHEBI:89324
+1110	d	l-aspartic acid residue	CHEBI:29958
+1110	d	l-aspartic acid	CHEBI:17053
+1110	d	aspartic acid	CHEBI:22660
+1110	d	deuterium atom	CHEBI:29237
+1110	d	dihydrouridine	CHEBI:23774
+1110	d2	dideuterium	CHEBI:29294
+1110	d2	glytoucan g14548zl	CHEBI:156581
+1110	d2	glytoucan g97938zk	CHEBI:146251
+1111	vitamin	vitamin (role)	CHEBI:33229
+1111	vitamin d	vitamin d	CHEBI:27300
+1111	vitamin d2	vitamin d2	CHEBI:28934
+1111	vitamin d	24,25-dihydroxyvitamin d	CHEBI:89324
+1111	d	l-aspartic acid residue	CHEBI:29958
+1111	d	l-aspartic acid	CHEBI:17053
+1111	d	aspartic acid	CHEBI:22660
+1111	d	deuterium atom	CHEBI:29237
+1111	d	dihydrouridine	CHEBI:23774
+1111	d2	dideuterium	CHEBI:29294
+1111	d2	glytoucan g14548zl	CHEBI:156581
+1111	d2	glytoucan g97938zk	CHEBI:146251
+1111	ergocalciferol	vitamin d2	CHEBI:28934
+1112	vitamin	vitamin (role)	CHEBI:33229
+1112	vitamin d	vitamin d	CHEBI:27300
+1112	vitamin d	24,25-dihydroxyvitamin d	CHEBI:89324
+1112	vitamin d3	calciol	CHEBI:28940
+1112	d	l-aspartic acid residue	CHEBI:29958
+1112	d	l-aspartic acid	CHEBI:17053
+1112	d	aspartic acid	CHEBI:22660
+1112	d	deuterium atom	CHEBI:29237
+1112	d	dihydrouridine	CHEBI:23774
+1112	cholecalciferol	calciol	CHEBI:28940
+1113	25-hydroxycholecalciferol	calcidiol	CHEBI:17933
+1113	hydroxycholecalciferol	hydroxycalciol	CHEBI:47042
+1114	vitamin	vitamin (role)	CHEBI:33229
+1114	vitamin d	vitamin d	CHEBI:27300
+1114	vitamin d	24,25-dihydroxyvitamin d	CHEBI:89324
+1114	d	l-aspartic acid residue	CHEBI:29958
+1114	d	l-aspartic acid	CHEBI:17053
+1114	d	aspartic acid	CHEBI:22660
+1114	d	deuterium atom	CHEBI:29237
+1114	d	dihydrouridine	CHEBI:23774
+1114	d2	dideuterium	CHEBI:29294
+1114	d2	glytoucan g14548zl	CHEBI:156581
+1114	d2	glytoucan g97938zk	CHEBI:146251
+1116	phytoene	phytoene	CHEBI:26119
+1116	phytoene	all-trans-phytoene	CHEBI:8191
+1117	phytofluene	phytofluene	CHEBI:26120
+1117	phytofluene	all-trans-phytofluene	CHEBI:28129
+1117	phytofluene	15-cis-phytofluene	CHEBI:35165
+1120	cryptoxanthin	beta-cryptoxanthin	CHEBI:10362
+1120	beta	electron	CHEBI:10545
+1122	lycopene	lycopene	CHEBI:15948
+1123	lutein	lutein	CHEBI:28838
+1123	zeaxanthin	zeaxanthin	CHEBI:27547
+1124	vitamin	vitamin (role)	CHEBI:33229
+1124	vitamin e	vitamin e	CHEBI:33234
+1124	label	label	CHEBI:35209
+1124	vitamin e	(r,r,r)-alpha-tocopherol	CHEBI:18145
+1124	e	l-glutamic acid residue	CHEBI:29972
+1124	e	l-glutamic acid	CHEBI:16015
+1124	e	glutamic acid	CHEBI:18237
+1125	tocopherol	tocopherol	CHEBI:27013
+1125	beta	electron	CHEBI:10545
+1126	tocopherol	tocopherol	CHEBI:27013
+1126	gamma	photon	CHEBI:30212
+1127	tocopherol	tocopherol	CHEBI:27013
+1128	tocotrienol	tocotrienol	CHEBI:33235
+1128	alpha	alpha-particle	CHEBI:30216
+1129	tocotrienol	tocotrienol	CHEBI:33235
+1129	beta	electron	CHEBI:10545
+1130	tocotrienol	tocotrienol	CHEBI:33235
+1130	gamma	photon	CHEBI:30212
+1131	tocotrienol	tocotrienol	CHEBI:33235
+1137	boron	boron atom	CHEBI:27560
+1137	boron	diboron	CHEBI:51707
+1137	boron	elemental boron	CHEBI:33609
+1137	b	boron atom	CHEBI:27560
+1146	ni	n-iodosuccinimide	CHEBI:53204
+1146	nickel	nickel atom	CHEBI:28112
+1146	ni	asn-ile	CHEBI:141421
+1146	ni	nickel atom	CHEBI:28112
+1162	vitamin	vitamin (role)	CHEBI:33229
+1162	vitamin c	vitamin c	CHEBI:176783
+1162	ascorbic acid	ascorbic acid	CHEBI:22652
+1162	acid	acid	CHEBI:37527
+1162	vitamin c	l-ascorbate	CHEBI:38290
+1162	vitamin c	l-ascorbic acid	CHEBI:29073
+1162	c	l-cysteine residue	CHEBI:29950
+1162	c	l-cysteine	CHEBI:17561
+1162	c	carbon atom	CHEBI:27594
+1162	c	cysteine	CHEBI:15356
+1162	c	cytidine residue	CHEBI:64656
+1162	c	cytosine	CHEBI:16040
+1162	ascorbic acid	l-ascorbic acid	CHEBI:29073
+1165	thiamin	vitamin b1	CHEBI:26948
+1165	thiamin	thiamine(1+) chloride	CHEBI:33283
+1165	thiamin	thiamine(1+)	CHEBI:18385
+1166	riboflavin	riboflavin	CHEBI:17015
+1166	riboflavin	riboflavin(1-)	CHEBI:57986
+1167	niacin	nicotinic acid	CHEBI:15940
+1167	niacin	nicotinamide	CHEBI:17154
+1170	pantothenic acid	pantothenic acid	CHEBI:7916
+1170	acid	acid	CHEBI:37527
+1170	pantothenic acid	(r)-pantothenic acid	CHEBI:46905
+1175	vitamin	vitamin (role)	CHEBI:33229
+1175	vitamin b	b vitamin	CHEBI:75769
+1175	vitamin b-6	vitamin b6	CHEBI:27306
+1175	b	boron atom	CHEBI:27560
+1177	folate	folates	CHEBI:67011
+1177	folate	folic acids	CHEBI:37445
+1177	folate	folic acid	CHEBI:27470
+1177	folate	folate(2-)	CHEBI:62501
+1178	vitamin	vitamin (role)	CHEBI:33229
+1178	vitamin b	b vitamin	CHEBI:75769
+1178	vitamin b-12	cyanocob(iii)alamin	CHEBI:17439
+1178	vitamin b-12	vitamin b12	CHEBI:176843
+1178	b	boron atom	CHEBI:27560
+1180	choline	choline	CHEBI:15354
+1180	choline	cholines	CHEBI:23217
+1183	vitamin	vitamin (role)	CHEBI:33229
+1183	vitamin k	vitamin k	CHEBI:28384
+1183	menaquinone	menaquinone	CHEBI:16374
+1183	menaquinone-4	menaquinone-4	CHEBI:78277
+1183	k	l-lysine residue	CHEBI:29967
+1183	k	l-lysine	CHEBI:18019
+1183	k	lysine	CHEBI:25094
+1183	k	potassium atom	CHEBI:26216
+1183	menaquinone	menadione	CHEBI:28869
+1184	vitamin	vitamin (role)	CHEBI:33229
+1184	vitamin k	vitamin k	CHEBI:28384
+1184	k	l-lysine residue	CHEBI:29967
+1184	k	l-lysine	CHEBI:18019
+1184	k	lysine	CHEBI:25094
+1184	k	potassium atom	CHEBI:26216
+1185	vitamin	vitamin (role)	CHEBI:33229
+1185	vitamin k	vitamin k	CHEBI:28384
+1185	phylloquinone	phylloquinone	CHEBI:18067
+1185	phylloquinone	phylloquinones	CHEBI:26106
+1185	k	l-lysine residue	CHEBI:29967
+1185	k	l-lysine	CHEBI:18019
+1185	k	lysine	CHEBI:25094
+1185	k	potassium atom	CHEBI:26216
+1188	methyl	methyl	CHEBI:29309
+1188	tetrahydrofolate	tetrahydrofolate	CHEBI:67016
+1188	methyl	methyl group	CHEBI:32875
+1188	tetrahydrofolate	(6s)-5,6,7,8-tetrahydrofolic acid	CHEBI:15635
+1188	tetrahydrofolate	5,6,7,8-tetrahydrofolic acid	CHEBI:20506
+1188	tetrahydrofolate	tetrahydrofolic acid	CHEBI:26907
+1191	folic acid	folic acid	CHEBI:27470
+1191	acid	acid	CHEBI:37527
+1191	formyl	formyl group	CHEBI:42485
+1192	5-formyltetrahydrofolic acid	5-formyltetrahydrofolic acid	CHEBI:15640
+1192	formyltetrahydrofolic acid	formyltetrahydrofolic acid	CHEBI:24099
+1192	acid	acid	CHEBI:37527
+1194	choline	choline	CHEBI:15354
+1194	choline	cholines	CHEBI:23217
+1195	choline	choline	CHEBI:15354
+1195	choline	cholines	CHEBI:23217
+1195	phosphocholine	phosphocholine	CHEBI:18132
+1195	phosphocholine	choline phosphate(1-)	CHEBI:295975
+1195	phosphocholine	phosphocholine group	CHEBI:55395
+1196	choline	choline	CHEBI:15354
+1196	choline	cholines	CHEBI:23217
+1197	choline	choline	CHEBI:15354
+1197	choline	cholines	CHEBI:23217
+1197	glycerophosphocholine	glycerophosphocholine	CHEBI:36313
+1197	glycerophosphocholine	choline alfoscerate	CHEBI:16870
+1197	glycerophosphocholine	glycerylphosphorylcholine	CHEBI:135063
+1198	betaine	amino-acid betaine	CHEBI:22860
+1198	betaine	onium betaine	CHEBI:35281
+1198	betaine	glycine betaine	CHEBI:17750
+1199	choline	choline	CHEBI:15354
+1199	choline	cholines	CHEBI:23217
+1199	sphingomyelin	sphingomyelin	CHEBI:64583
+1199	sphingomyelin	sm(d18:0/14:0)	CHEBI:89482
+1199	sphingomyelin	sm(d18:0/18:0)	CHEBI:89483
+1199	sphingomyelin	sm(d18:0/20:0)	CHEBI:89491
+1199	sphingomyelin	sm(d18:0/22:0)	CHEBI:89490
+1199	sphingomyelin	sm(d18:0/24:1(15z))	CHEBI:89488
+1199	sphingomyelin	sphingomyelin d18:1(1+)	CHEBI:62490
+1199	sphingomyelin	sphingomyelin d18:1	CHEBI:17636
+1210	tryptophan	tryptophan	CHEBI:27897
+1210	tryptophan	l-tryptophan	CHEBI:16828
+1210	tryptophan	d-tryptophan zwitterion	CHEBI:57719
+1210	tryptophan	l-tryptophan zwitterion	CHEBI:57912
+1211	threonine	threonine	CHEBI:26986
+1211	threonine	l-threonine	CHEBI:16857
+1212	isoleucine	isoleucine	CHEBI:24898
+1212	isoleucine	l-isoleucine	CHEBI:17191
+1213	leucine	leucine	CHEBI:25017
+1213	leucine	l-leucine	CHEBI:15603
+1214	lysine	lysine	CHEBI:25094
+1214	lysine	l-lysine	CHEBI:18019
+1215	methionine	methionine	CHEBI:16811
+1215	methionine	l-methionine	CHEBI:16643
+1215	methionine	methionine zwitterion	CHEBI:64558
+1216	cystine	cystine	CHEBI:17376
+1217	phenylalanine	phenylalanine	CHEBI:28044
+1217	phenylalanine	l-phenylalanine	CHEBI:17295
+1217	phenylalanine	l-phenylalanine zwitterion	CHEBI:58095
+1218	tyrosine	tyrosine	CHEBI:18186
+1218	tyrosine	l-tyrosine	CHEBI:17895
+1219	valine	valine	CHEBI:27266
+1219	valine	l-valine	CHEBI:16414
+1220	arginine	arginine	CHEBI:29016
+1220	arginine	l-arginine	CHEBI:16467
+1220	arginine	argininium(1+)	CHEBI:32696
+1221	histidine	histidine	CHEBI:27570
+1221	histidine	l-histidine	CHEBI:15971
+1222	alanine	alanine	CHEBI:16449
+1222	alanine	l-alanine residue	CHEBI:46217
+1222	alanine	l-alanine	CHEBI:16977
+1223	aspartic acid	aspartic acid	CHEBI:22660
+1223	acid	acid	CHEBI:37527
+1223	aspartic acid	l-aspartic acid	CHEBI:17053
+1224	glutamic acid	glutamic acid	CHEBI:18237
+1224	acid	acid	CHEBI:37527
+1224	glutamic acid	l-glutamic acid	CHEBI:16015
+1225	glycine	glycine	CHEBI:15428
+1225	glycine	glycine residue	CHEBI:29947
+1225	glycine	glycine zwitterion	CHEBI:57305
+1226	proline	proline	CHEBI:26271
+1226	proline	l-proline	CHEBI:17203
+1227	serine	serine	CHEBI:17822
+1227	serine	l-serine	CHEBI:17115
+1228	hydroxyproline	hydroxyproline	CHEBI:24741
+1228	hydroxyproline	trans-4-hydroxy-l-proline	CHEBI:18095
+1232	cysteine	cysteine	CHEBI:15356
+1232	cysteine	l-cysteine	CHEBI:17561
+1253	cholesterol	cholesterol	CHEBI:16113
+1257	acids	acid	CHEBI:37527
+1257	fatty acids	fatty acid	CHEBI:35366
+1258	acids	acid	CHEBI:37527
+1258	fatty acids	fatty acid	CHEBI:35366
+1259	sfa	saturated fatty acid	CHEBI:26607
+1259	4:0	butyric acid	CHEBI:30772
+1260	sfa	saturated fatty acid	CHEBI:26607
+1260	6:0	hexanoic acid	CHEBI:30776
+1261	sfa	saturated fatty acid	CHEBI:26607
+1261	8:0	octanoic acid	CHEBI:28837
+1262	sfa	saturated fatty acid	CHEBI:26607
+1262	10:0	decanoic acid	CHEBI:30813
+1263	sfa	saturated fatty acid	CHEBI:26607
+1264	sfa	saturated fatty acid	CHEBI:26607
+1264	14	tetradecanoic acid	CHEBI:28875
+1264	14:0	tetradecanoic acid	CHEBI:28875
+1265	sfa	saturated fatty acid	CHEBI:26607
+1266	sfa	saturated fatty acid	CHEBI:26607
+1266	18:0	octadecanoic acid	CHEBI:28842
+1267	sfa	saturated fatty acid	CHEBI:26607
+1268	mufa	monounsaturated fatty acid	CHEBI:25413
+1269	pufa	polyunsaturated fatty acid anion	CHEBI:76567
+1269	pufa	polyunsaturated fatty acid	CHEBI:26208
+1269	18:2	laballenic acid	CHEBI:24993
+1269	18:2	octadecadienoic acid	CHEBI:25627
+1270	pufa	polyunsaturated fatty acid anion	CHEBI:76567
+1270	pufa	polyunsaturated fatty acid	CHEBI:26208
+1270	18:3	conjugated linolenic acid	CHEBI:61160
+1270	18:3	octadecatrienoic acid	CHEBI:25633
+1271	pufa	polyunsaturated fatty acid anion	CHEBI:76567
+1271	pufa	polyunsaturated fatty acid	CHEBI:26208
+1271	20:4	icosatetraenoic acid	CHEBI:36033
+1272	pufa	polyunsaturated fatty acid anion	CHEBI:76567
+1272	pufa	polyunsaturated fatty acid	CHEBI:26208
+1272	n	neutron	CHEBI:30222
+1272	dha	all-cis-docosa-4,7,10,13,16,19-hexaenoic acid	CHEBI:28125
+1272	dha	dehydroepiandrosterone	CHEBI:28689
+1272	dha	dihydroxyacetone	CHEBI:16016
+1272	dha	docosahexaenoic acid	CHEBI:36005
+1273	sfa	saturated fatty acid	CHEBI:26607
+1276	pufa	polyunsaturated fatty acid anion	CHEBI:76567
+1276	pufa	polyunsaturated fatty acid	CHEBI:26208
+1276	18:4	octadecatetraenoic acid	CHEBI:37810
+1277	mufa	monounsaturated fatty acid	CHEBI:25413
+1277	20:1	(11z)-icos-11-enoic acid	CHEBI:32425
+1277	20:1	icosenoic acid	CHEBI:23902
+1278	pufa	polyunsaturated fatty acid anion	CHEBI:76567
+1278	pufa	polyunsaturated fatty acid	CHEBI:26208
+1278	n	neutron	CHEBI:30222
+1278	epa	all-cis-5,8,11,14,17-icosapentaenoic acid	CHEBI:28364
+1279	mufa	monounsaturated fatty acid	CHEBI:25413
+1279	22:1	docosenoic acid	CHEBI:36031
+1280	pufa	polyunsaturated fatty acid anion	CHEBI:76567
+1280	pufa	polyunsaturated fatty acid	CHEBI:26208
+1280	22:5	docosapentaenoic acid	CHEBI:61204
+1280	n	neutron	CHEBI:30222
+1280	dpa	(7z,10z,13z,16z,19z)-docosapentaenoic acid	CHEBI:53488
+1280	dpa	9,10-diphenylanthracene	CHEBI:51676
+1280	dpa	diphenylamine	CHEBI:4640
+1280	dpa	propanil	CHEBI:34936
+1280	dpa	valproic acid	CHEBI:39867
+1281	tfa	trifluoroacetic acid	CHEBI:45892
+1281	tfa	trifluoroacetate	CHEBI:27110
+1281	14	tetradecanoic acid	CHEBI:28875
+1281	14:1	tetradecenoic acid	CHEBI:36004
+1281	t	ribothymidine	CHEBI:45996
+1281	t	top quark	CHEBI:36371
+1281	t	triton	CHEBI:29234
+1292	acids	acid	CHEBI:37527
+1292	fatty acids	fatty acid	CHEBI:35366
+1293	acids	acid	CHEBI:37527
+1293	fatty acids	fatty acid	CHEBI:35366
+1299	sfa	saturated fatty acid	CHEBI:26607
+1300	sfa	saturated fatty acid	CHEBI:26607
+1300	17:0	heptadecanoic acid	CHEBI:32365
+1301	sfa	saturated fatty acid	CHEBI:26607
+1303	tfa	trifluoroacetic acid	CHEBI:45892
+1303	tfa	trifluoroacetate	CHEBI:27110
+1303	16:1	hexadecenoic acid	CHEBI:24548
+1303	t	ribothymidine	CHEBI:45996
+1303	t	top quark	CHEBI:36371
+1303	t	triton	CHEBI:29234
+1304	tfa	trifluoroacetic acid	CHEBI:45892
+1304	tfa	trifluoroacetate	CHEBI:27110
+1304	t	ribothymidine	CHEBI:45996
+1304	t	top quark	CHEBI:36371
+1304	t	triton	CHEBI:29234
+1305	tfa	trifluoroacetic acid	CHEBI:45892
+1305	tfa	trifluoroacetate	CHEBI:27110
+1305	22:1	docosenoic acid	CHEBI:36031
+1305	t	ribothymidine	CHEBI:45996
+1305	t	top quark	CHEBI:36371
+1305	t	triton	CHEBI:29234
+1306	tfa	trifluoroacetic acid	CHEBI:45892
+1306	tfa	trifluoroacetate	CHEBI:27110
+1306	18:2	laballenic acid	CHEBI:24993
+1306	18:2	octadecadienoic acid	CHEBI:25627
+1306	t	ribothymidine	CHEBI:45996
+1306	t	top quark	CHEBI:36371
+1306	t	triton	CHEBI:29234
+1311	pufa	polyunsaturated fatty acid anion	CHEBI:76567
+1311	pufa	polyunsaturated fatty acid	CHEBI:26208
+1311	18:2	laballenic acid	CHEBI:24993
+1311	18:2	octadecadienoic acid	CHEBI:25627
+1311	clas	conjugated linoleic acid	CHEBI:61159
+1312	mufa	monounsaturated fatty acid	CHEBI:25413
+1312	24:1	tetracosenoic acid	CHEBI:36032
+1312	c	charm quark	CHEBI:36369
+1313	pufa	polyunsaturated fatty acid anion	CHEBI:76567
+1313	pufa	polyunsaturated fatty acid	CHEBI:26208
+1313	20:2	icosadienoic acid	CHEBI:72850
+1313	n	neutron	CHEBI:30222
+1313	c	charm quark	CHEBI:36369
+1314	mufa	monounsaturated fatty acid	CHEBI:25413
+1314	16:1	hexadecenoic acid	CHEBI:24548
+1314	c	charm quark	CHEBI:36369
+1315	mufa	monounsaturated fatty acid	CHEBI:25413
+1315	c	charm quark	CHEBI:36369
+1316	pufa	polyunsaturated fatty acid anion	CHEBI:76567
+1316	pufa	polyunsaturated fatty acid	CHEBI:26208
+1316	18:2	laballenic acid	CHEBI:24993
+1316	18:2	octadecadienoic acid	CHEBI:25627
+1316	n	neutron	CHEBI:30222
+1316	c	charm quark	CHEBI:36369
+1317	mufa	monounsaturated fatty acid	CHEBI:25413
+1317	22:1	docosenoic acid	CHEBI:36031
+1317	c	charm quark	CHEBI:36369
+1321	pufa	polyunsaturated fatty acid anion	CHEBI:76567
+1321	pufa	polyunsaturated fatty acid	CHEBI:26208
+1321	18:3	conjugated linolenic acid	CHEBI:61160
+1321	18:3	octadecatrienoic acid	CHEBI:25633
+1321	n	neutron	CHEBI:30222
+1321	c	charm quark	CHEBI:36369
+1323	mufa	monounsaturated fatty acid	CHEBI:25413
+1323	17:1	heptadecenoic acid	CHEBI:36001
+1325	pufa	polyunsaturated fatty acid anion	CHEBI:76567
+1325	pufa	polyunsaturated fatty acid	CHEBI:26208
+1325	20:3	fatty acid 20:3	CHEBI:36036
+1329	acids	acid	CHEBI:37527
+1329	fatty acids	fatty acid	CHEBI:35366
+1330	acids	acid	CHEBI:37527
+1330	fatty acids	fatty acid	CHEBI:35366
+1331	acids	acid	CHEBI:37527
+1331	fatty acids	fatty acid	CHEBI:35366
+1333	mufa	monounsaturated fatty acid	CHEBI:25413
+1333	15:1	pentadecenoic acid	CHEBI:75088
+1334	pufa	polyunsaturated fatty acid anion	CHEBI:76567
+1334	pufa	polyunsaturated fatty acid	CHEBI:26208
+1334	22:2	docosadienoic acid	CHEBI:75115
+1335	sfa	saturated fatty acid	CHEBI:26607
+1404	pufa	polyunsaturated fatty acid anion	CHEBI:76567
+1404	pufa	polyunsaturated fatty acid	CHEBI:26208
+1404	18:3	conjugated linolenic acid	CHEBI:61160
+1404	18:3	octadecatrienoic acid	CHEBI:25633
+1404	n	neutron	CHEBI:30222
+1404	c	charm quark	CHEBI:36369
+1404	ala	ala-leu-ala	CHEBI:158283
+1404	ala	alanine	CHEBI:16449
+1404	ala	alpha-linolenic acid	CHEBI:27432
+1404	ala	l-alanine residue	CHEBI:46217
+1404	ala	l-alanine	CHEBI:16977
+1405	pufa	polyunsaturated fatty acid anion	CHEBI:76567
+1405	pufa	polyunsaturated fatty acid	CHEBI:26208
+1405	20:3	fatty acid 20:3	CHEBI:36036
+1405	n	neutron	CHEBI:30222
+1406	pufa	polyunsaturated fatty acid anion	CHEBI:76567
+1406	pufa	polyunsaturated fatty acid	CHEBI:26208
+1406	20:3	fatty acid 20:3	CHEBI:36036
+1406	n	neutron	CHEBI:30222
+1409	pufa	polyunsaturated fatty acid anion	CHEBI:76567
+1409	pufa	polyunsaturated fatty acid	CHEBI:26208
+1409	18:3	conjugated linolenic acid	CHEBI:61160
+1409	18:3	octadecatrienoic acid	CHEBI:25633
+1409	i	inosine	CHEBI:17596
+1411	pufa	polyunsaturated fatty acid anion	CHEBI:76567
+1411	pufa	polyunsaturated fatty acid	CHEBI:26208
+1411	22:4	docosatetraenoic acid	CHEBI:61205
+1414	pufa	polyunsaturated fatty acid anion	CHEBI:76567
+1414	pufa	polyunsaturated fatty acid	CHEBI:26208
+1414	20:3	fatty acid 20:3	CHEBI:36036
+1414	n	neutron	CHEBI:30222
+2003	sfa	saturated fatty acid	CHEBI:26607
+2004	sfa	saturated fatty acid	CHEBI:26607
+2005	sfa	saturated fatty acid	CHEBI:26607
+2006	sfa	saturated fatty acid	CHEBI:26607
+2006	21:0	henicosanoic acid	CHEBI:39248
+2007	sfa	saturated fatty acid	CHEBI:26607
+2008	mufa	monounsaturated fatty acid	CHEBI:25413
+2008	12:1	2-dodecenoic acid	CHEBI:38371
+2008	12:1	dodecenoic acid	CHEBI:23867
+2009	mufa	monounsaturated fatty acid	CHEBI:25413
+2009	14	tetradecanoic acid	CHEBI:28875
+2009	14:1	tetradecenoic acid	CHEBI:36004
+2009	c	charm quark	CHEBI:36369
+2010	mufa	monounsaturated fatty acid	CHEBI:25413
+2010	17:1	heptadecenoic acid	CHEBI:36001
+2010	c	charm quark	CHEBI:36369
+2012	mufa	monounsaturated fatty acid	CHEBI:25413
+2012	20:1	(11z)-icos-11-enoic acid	CHEBI:32425
+2012	20:1	icosenoic acid	CHEBI:23902
+2012	c	charm quark	CHEBI:36369
+2013	tfa	trifluoroacetic acid	CHEBI:45892
+2013	tfa	trifluoroacetate	CHEBI:27110
+2013	20:1	(11z)-icos-11-enoic acid	CHEBI:32425
+2013	20:1	icosenoic acid	CHEBI:23902
+2013	t	ribothymidine	CHEBI:45996
+2013	t	top quark	CHEBI:36371
+2013	t	triton	CHEBI:29234
+2014	mufa	monounsaturated fatty acid	CHEBI:25413
+2014	22:1	docosenoic acid	CHEBI:36031
+2014	n	neutron	CHEBI:30222
+2015	mufa	monounsaturated fatty acid	CHEBI:25413
+2015	22:1	docosenoic acid	CHEBI:36031
+2015	n	neutron	CHEBI:30222
+2016	pufa	polyunsaturated fatty acid anion	CHEBI:76567
+2016	pufa	polyunsaturated fatty acid	CHEBI:26208
+2016	18:2	laballenic acid	CHEBI:24993
+2016	18:2	octadecadienoic acid	CHEBI:25627
+2016	c	charm quark	CHEBI:36369
+2018	pufa	polyunsaturated fatty acid anion	CHEBI:76567
+2018	pufa	polyunsaturated fatty acid	CHEBI:26208
+2018	18:3	conjugated linolenic acid	CHEBI:61160
+2018	18:3	octadecatrienoic acid	CHEBI:25633
+2018	c	charm quark	CHEBI:36369
+2019	tfa	trifluoroacetic acid	CHEBI:45892
+2019	tfa	trifluoroacetate	CHEBI:27110
+2019	18:3	conjugated linolenic acid	CHEBI:61160
+2019	18:3	octadecatrienoic acid	CHEBI:25633
+2019	t	ribothymidine	CHEBI:45996
+2019	t	top quark	CHEBI:36371
+2019	t	triton	CHEBI:29234
+2020	pufa	polyunsaturated fatty acid anion	CHEBI:76567
+2020	pufa	polyunsaturated fatty acid	CHEBI:26208
+2020	20:3	fatty acid 20:3	CHEBI:36036
+2020	c	charm quark	CHEBI:36369
+2021	pufa	polyunsaturated fatty acid anion	CHEBI:76567
+2021	pufa	polyunsaturated fatty acid	CHEBI:26208
+2022	pufa	polyunsaturated fatty acid anion	CHEBI:76567
+2022	pufa	polyunsaturated fatty acid	CHEBI:26208
+2022	c	charm quark	CHEBI:36369
+2023	pufa	polyunsaturated fatty acid anion	CHEBI:76567
+2023	pufa	polyunsaturated fatty acid	CHEBI:26208
+2023	c	charm quark	CHEBI:36369
+2024	pufa	polyunsaturated fatty acid anion	CHEBI:76567
+2024	pufa	polyunsaturated fatty acid	CHEBI:26208
+2024	22:5	docosapentaenoic acid	CHEBI:61204
+2024	c	charm quark	CHEBI:36369
+2025	pufa	polyunsaturated fatty acid anion	CHEBI:76567
+2025	pufa	polyunsaturated fatty acid	CHEBI:26208
+2025	c	charm quark	CHEBI:36369
+2026	pufa	polyunsaturated fatty acid anion	CHEBI:76567
+2026	pufa	polyunsaturated fatty acid	CHEBI:26208
+2026	20:2	icosadienoic acid	CHEBI:72850
+2026	c	charm quark	CHEBI:36369
