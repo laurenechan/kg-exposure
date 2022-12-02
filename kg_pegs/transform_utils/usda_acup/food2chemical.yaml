@@ -1,0 +1,28 @@
+name: 'food2chemical'
+
+format: 'csv'
+
+delimiter: ','
+
+files:
+  - './data/fruit_fungicides_EDITED.csv'
+
+metadata: './kg_pegs/transform_utils/usda_acup/metadata.yaml'
+
+columns:
+  - 'food_id'
+  - 'chemical_id'
+
+edge_properties:
+  - 'id'
+  - 'subject'
+  - 'predicate'
+  - 'object'
+  - 'category'
+  - 'relation'
+  - 'source'
+  - 'provided_by'
+
+transform_mode: 'flat'
+
+

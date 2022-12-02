@@ -1,0 +1,7 @@
+name: 'usda_acup'
+
+dataset_description:
+  ingest_title: 'USDA ACUP'
+  description: 'USDA ACUP data files'
+
+
