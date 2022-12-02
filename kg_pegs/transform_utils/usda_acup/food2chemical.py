@@ -17,6 +17,7 @@ chemical = row['chemical_id']
 
 association = Association(
     id="uuid:" + str(uuid.uuid1()),
+    category="biolink:Association",
     subject=food,
     predicate=Predicate.associated_with,
     object=chemical,
