@@ -7,7 +7,7 @@ from biolink_model_pydantic.model import ( #type: ignore
 
 from koza.cli_runner import koza_app
 
-source_name = "food2chemical"
+source_name = "acup_food2chemical"
 full_source_name = "usda_acup"
 
 row = koza_app.get_row(source_name)

@@ -1,0 +1,40 @@
+name: 'nutrient_food2chemical'
+
+format: 'csv'
+
+delimiter: ','
+
+files:
+  - './data/food_nutrient_raw_data.csv'
+
+header: 'infer'
+
+columns:
+  - 'id'
+  - 'fdc_id'
+  - 'nutrient_id'
+  - 'amount'
+  - 'data_points'
+  - 'derivation_id'
+  - 'min'
+  - 'max'
+  - 'median'
+  - 'footnote'
+  - 'min_year_acqured'
+
+global_table: 'kg_pegs/transform_utils/translation_table.yaml'
+local_table: 'kg_pegs/transform_utils/nutrient_USDA/translation_map_combined.yaml'
+
+edge_properties:
+  - 'id'
+  - 'subject'
+  - 'predicate'
+  - 'object'
+  - 'category'
+  - 'relation'
+  - 'source'
+  - 'provided_by'
+
+transform_mode: 'flat'
+
+
