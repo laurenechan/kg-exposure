@@ -1,0 +1,20 @@
+name: 'medication-to-chebi'
+
+metadata:
+  description: 'Mapping file to look up CHEBI IDs for medications'
+
+delimiter: '\t'
+
+files:
+  - './kg_pegs/transform_utils/pegs_survey_exposomeB/reported_medication_name_to_chebi.tsv'
+
+header: infer
+
+columns:
+  - 'chemical'
+  - 'medication'
+
+key: 'medication'
+
+values:
+  - 'chemical'
