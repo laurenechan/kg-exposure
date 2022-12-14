@@ -1,653 +1,1002 @@
-chemical	medication
-CHEBI:10033	warfarin
-CHEBI:10034	coumadin
-CHEBI:10100	zafirlukast
-CHEBI:10102	zaleplon
-CHEBI:10124	zolmitriptan
-CHEBI:10124	zomig
-CHEBI:10125	zolpidem
-CHEBI:10126	zolpidem tartrate
-CHEBI:10127	zonisamide
-CHEBI:101278	diltiazem
-CHEBI:10545	beta
-CHEBI:10650	imitrex
-CHEBI:10650	sumatriptan
-CHEBI:119915	duragesic
-CHEBI:127342	atomoxetine
-CHEBI:131389	magnesium citrate
-CHEBI:132950	tartrate
-CHEBI:132951	maleate
-CHEBI:132952	oxalate
-CHEBI:132966	hippurate
-CHEBI:133007	descovy
-CHEBI:133010	odefsey
-CHEBI:133023	xiidra
-CHEBI:134716	rexulti
-CHEBI:134765	isometheptene
-CHEBI:135530	solifenacin
-CHEBI:135530	vesicare
-CHEBI:135920	toviaz
-CHEBI:135922	symlin
-CHEBI:135925	vyvanse
-CHEBI:135929	rapaflo
-CHEBI:135931	dexilant
-CHEBI:135935	nucynta
-CHEBI:135939	vimpat
-CHEBI:136040	fetzima
-CHEBI:13643	glycol
-CHEBI:141029	pilocarpine hcl
-CHEBI:145791	trospium
-CHEBI:145810	insulin
-CHEBI:15356	cysteine
-CHEBI:15365	asa
-CHEBI:15365	aspirin
-CHEBI:15367	tretinoin
-CHEBI:15414	s-adenosylmethionine
-CHEBI:15640	leucovorin
-CHEBI:15765	levodopa
-CHEBI:15858	bromide
-CHEBI:15940	niacin
-CHEBI:15940	niaspan
-CHEBI:15948	lycopene
-CHEBI:15956	biotin
-CHEBI:16113	cholesterol
-CHEBI:16137	chondroitin
-CHEBI:16336	hyaluronic acid
-CHEBI:16347	l-carnitine
-CHEBI:16494	lipoic acid
-CHEBI:16714	codeine
-CHEBI:16737	creatinine
-CHEBI:16796	melatonin
-CHEBI:168396	mycophenolate
-CHEBI:17026	progesterone
-CHEBI:17126	carnitine
-CHEBI:17272	propionate
-CHEBI:17303	morphine
-CHEBI:17347	testosteron
-CHEBI:17347	testosterone
-CHEBI:17439	cyanocobalamin
-CHEBI:17486	hyoscyamine
-CHEBI:17544	bicarbonate
-CHEBI:17594	hydroquinone
-CHEBI:176304	azythromycin
-CHEBI:17650	hydrocortisone
-CHEBI:176783	vitamin c
-CHEBI:176843	vitamin b12
-CHEBI:17823	calcitriol
-CHEBI:17976	ubiquinol
-CHEBI:18050	l-glutamine
-CHEBI:18248	iron
-CHEBI:18258	liothyronine
-CHEBI:18332	l-thyroxine
-CHEBI:18332	levothyroxin
-CHEBI:18332	levothyroxine
-CHEBI:188978	benzalkonium
-CHEBI:190513	calcium citrate
-CHEBI:204734	desonide
-CHEBI:205919	clobetasol
-CHEBI:22652	ascorbic acid
-CHEBI:22733	benzoyl
-CHEBI:22984	calcium
-CHEBI:23359	colchicine
-CHEBI:2379	acebutolol
-CHEBI:2380	sectral
-CHEBI:23888	drug
-CHEBI:23965	estradiol
-CHEBI:24265	gluconate
-CHEBI:2453	acyclovir
-CHEBI:24859	iodine
-CHEBI:24996	lactate
-CHEBI:25094	lysine
-CHEBI:25107	magnesium
-CHEBI:2549	albuterol
-CHEBI:2549	proventil
-CHEBI:2550	albuterol sulfate
-CHEBI:2550	ventolin
-CHEBI:2566	fosamax
-CHEBI:2567	alendronate
-CHEBI:25681	omega-3 fatty acids
-CHEBI:2611	alprazolam
-CHEBI:2611	xanax
-CHEBI:26216	potassium
-CHEBI:2639	amiloride
-CHEBI:2663	amiodarone
-CHEBI:2666	amitriptylin
-CHEBI:2666	amitriptyline
-CHEBI:2667	elavil
-CHEBI:2668	amlodipine
-CHEBI:2669	amlodipine besylate
-CHEBI:26710	sodium chloride
-CHEBI:2676	amoxicillin
-CHEBI:2679	amphetamin
-CHEBI:2679	amphetamine
-CHEBI:2704	anastrozole
-CHEBI:27300	vitamin d
-CHEBI:27363	zinc
-CHEBI:27436	methyltestosterone
-CHEBI:27470	folic acid
-CHEBI:27547	zeaxanthin
-CHEBI:27690	acetazolamide
-CHEBI:27693	sitosterol
-CHEBI:27732	caffeine
-CHEBI:27786	hydroxycobalamin
-CHEBI:27974	estriol
-CHEBI:28001	vancomycin
-CHEBI:28077	rifampin
-CHEBI:28115	methylcobalamin
-CHEBI:28171	5-htp
-CHEBI:28177	theophylline
-CHEBI:28300	glutamine
-CHEBI:28364	epa
-CHEBI:28689	dehydroepiandrosterone
-CHEBI:28787	nitrolingual
-CHEBI:28787	nitrostat
-CHEBI:28838	lutein
-CHEBI:28918	epipen
-CHEBI:28934	calciferol
-CHEBI:28934	ergocalciferol
-CHEBI:28934	vitamin d2
-CHEBI:28938	ammonium
-CHEBI:28940	cholecalciferol
-CHEBI:28940	vitamin d3
-CHEBI:2904	atenolol
-CHEBI:291342	desloratadine
-CHEBI:2948	azathioprine
-CHEBI:2950	azelastine
-CHEBI:2951	azelastine hcl
-CHEBI:2955	azithromycin
-CHEBI:2972	baclofen
-CHEBI:29806	fumarate
-CHEBI:3001	beclometasone
-CHEBI:3011	benazepril
-CHEBI:3012	benazepril hcl
-CHEBI:3012	lotensin
-CHEBI:30145	lithium
-CHEBI:3032	benzonatate
-CHEBI:30623	oxalate
-CHEBI:30660	thyroxine
-CHEBI:3077	betamethasone
-CHEBI:30830	xyrem
-CHEBI:31236	abilify
-CHEBI:31243	reyataz
-CHEBI:3127	bisoprolol
-CHEBI:31276	betamethasone dipropionate
-CHEBI:3128	bisoprolol fumarate
-CHEBI:31281	bepreve
-CHEBI:31348	xeloda
-CHEBI:31401	cilostazol
-CHEBI:31414	clobetasol propionate
-CHEBI:31441	fluticasone propionate
-CHEBI:31526	cymbalta
-CHEBI:31596	uloric
-CHEBI:31608	ferrous gluconate
-CHEBI:31625	fluorometholone
-CHEBI:31680	vistaril
-CHEBI:3175	brimonidine
-CHEBI:3176	azopt
-CHEBI:31794	magnesia
-CHEBI:31794	magnesium oxide
-CHEBI:3181	bromocriptine
-CHEBI:31836	concerta
-CHEBI:31836	methylphenidate hcl
-CHEBI:31836	ritalin
-CHEBI:31859	modafinil
-CHEBI:31859	provigil
-CHEBI:31932	olmesartan medoxomil
-CHEBI:32032	potassium gluconate
-CHEBI:3207	budesonide
-CHEBI:3213	bumetanide
-CHEBI:32139	sodium bicarbonate
-CHEBI:3219	bupropion
-CHEBI:3220	wellbutrin
-CHEBI:3223	buspirone
-CHEBI:3224	buspar
-CHEBI:32250	tramadol hcl
-CHEBI:32314	geodon
-CHEBI:32588	kcl
-CHEBI:32588	klor-con
-CHEBI:32588	potassium chloride
-CHEBI:3286	cabergoline
-CHEBI:3306	calcitonin
-CHEBI:3311	calcium carbonate
-CHEBI:33234	vitamin e
-CHEBI:3387	carbamazepine
-CHEBI:3395	carbidopa
-CHEBI:3396	carbidopa-levodopa
-CHEBI:3419	carisoprodol
-CHEBI:3424	carnitine
-CHEBI:34385	ampyra
-CHEBI:3441	carvedilol
-CHEBI:34650	colistimethate
-CHEBI:34730	doxycycline hyclate
-CHEBI:34945	amitiza
-CHEBI:3515	cefuroxime
-CHEBI:3534	cephalexin
-CHEBI:35366	fatty acids
-CHEBI:3561	cetirizine
-CHEBI:3562	cetirizine hydrochloride
-CHEBI:3568	cevimeline
-CHEBI:35854	valacyclovir
-CHEBI:3645	chlorpheniramine maleate
-CHEBI:3654	chlorthalidone
-CHEBI:36791	escitalopram
-CHEBI:36796	duloxetine
-CHEBI:3723	citalopram
-CHEBI:3724	celexa
-CHEBI:3724	citalopram hydrobromide
-CHEBI:37391	cyclen
-CHEBI:37397	chondroitin sulfate
-CHEBI:3745	clindamycin
-CHEBI:3746	clindamycin phosphate
-CHEBI:3756	clonazepam
-CHEBI:3759	clopidogrel bisulfate
-CHEBI:3759	plavix
-CHEBI:3764	clotrimazole
-CHEBI:37941	clopidogrel
-CHEBI:37956	antihistamine
-CHEBI:3814	colestipol
-CHEBI:38545	rosuvastatin
-CHEBI:39462	pilocarpine
-CHEBI:39465	timolol
-CHEBI:39548	atorvastatin
-CHEBI:3962	curcumin
-CHEBI:39867	valproic acid
-CHEBI:3996	cyclobenzaprine
-CHEBI:40279	allopurinol
-CHEBI:40279	alopurinol
-CHEBI:40303	lovastatin
-CHEBI:4031	cyclosporine
-CHEBI:41060	ibandronate
-CHEBI:41423	celebrex
-CHEBI:41423	celecoxib
-CHEBI:41774	tamoxifen
-CHEBI:41879	dexamethasone
-CHEBI:42797	gabapentin
-CHEBI:42797	gabapentine
-CHEBI:42797	neurontin
-CHEBI:43755	lisinopril
-CHEBI:44185	methotrexate
-CHEBI:4450	ddavp
-CHEBI:4450	desmopressin
-CHEBI:4509	diclofenac sodium
-CHEBI:4514	dicyclomine
-CHEBI:4551	digoxin
-CHEBI:46081	diflucan
-CHEBI:46081	fluconazole
-CHEBI:46195	acetaminophen
-CHEBI:46195	apap
-CHEBI:46195	tylenol
-CHEBI:46245	coq10
-CHEBI:46295	levitra
-CHEBI:4636	diphenhydramine
-CHEBI:4637	diphenhydramine hcl
-CHEBI:4659	disulfiram
-CHEBI:46631	clonidine
-CHEBI:46659	ipratropium bromide
-CHEBI:4674	docusate
-CHEBI:4674	docusate sodium
-CHEBI:4681	tikosyn
-CHEBI:4702	dorzolamide
-CHEBI:4708	doxazosin
-CHEBI:4710	doxepin
-CHEBI:47381	diclofenac
-CHEBI:47426	furosemide
-CHEBI:47519	ketoconazole
-CHEBI:4784	enalapril
-CHEBI:4785	enalapril maleate
-CHEBI:4814	eprosartan
-CHEBI:48273	rizatriptan
-CHEBI:48409	eprosartan mesylate
-CHEBI:48416	olmesartan
-CHEBI:48669	tranexamic acid
-CHEBI:4873	estropipate
-CHEBI:4877	ethambutol
-CHEBI:4903	ethinyl estradiol
-CHEBI:49040	ezetimibe
-CHEBI:49040	zetia
-CHEBI:4909	etodolac
-CHEBI:49168	dopa
-CHEBI:49325	oral contraceptive
-CHEBI:4953	exemestane
-CHEBI:49575	diazepam
-CHEBI:49575	valium
-CHEBI:49662	indomethacin
-CHEBI:4974	famciclovir
-CHEBI:4975	famotidine
-CHEBI:4975	pepcid
-CHEBI:5001	fenofibrate
-CHEBI:5001	lipofen
-CHEBI:5001	tricor
-CHEBI:50114	estrogen
-CHEBI:50270	pantoprazole sodium
-CHEBI:50270	protonix
-CHEBI:50275	esomeprazol
-CHEBI:50275	esomeprazole
-CHEBI:50309	esomeprazole magnesium
-CHEBI:50362	tagamet
-CHEBI:5050	fexofenadine
-CHEBI:50503	laxative
-CHEBI:5051	fexofenadine hydrochloride
-CHEBI:5062	finasteride
-CHEBI:50659	multaq
-CHEBI:50667	6-mercaptopurine
-CHEBI:50667	mercaptopurine
-CHEBI:50673	methimazole
-CHEBI:50686	atorvastatin calcium
-CHEBI:50686	lipitor
-CHEBI:50694	minocycline
-CHEBI:50730	montelukast
-CHEBI:50740	evista
-CHEBI:50838	drospirenone
-CHEBI:50845	doxycycline
-CHEBI:5102	florinef
-CHEBI:5109	fluocinonide
-CHEBI:51141	alfuzosin
-CHEBI:51148	pramipexole dihydrochloride
-CHEBI:51157	alphagan p
-CHEBI:5118	fluoxetine
-CHEBI:5118	prozac
-CHEBI:5119	fluoxetine hcl
-CHEBI:5134	fluticasone
-CHEBI:5163	fosinopril
-CHEBI:51860	dexmethylphenidate
-CHEBI:52010	chlorpheniramine
-CHEBI:521033	dutasteride
-CHEBI:5296	gemfibrozil
-CHEBI:53289	donepezil
-CHEBI:5383	amaryl
-CHEBI:5383	glimepiride
-CHEBI:5384	glipizide
-CHEBI:5417	glucosamine
-CHEBI:5551	guaifenesin
-CHEBI:5558	guanfacine
-CHEBI:57589	acetyl-l-carnitine
-CHEBI:5775	hydralazine
-CHEBI:5778	hydrochlorothiazide
-CHEBI:5779	hydrocodon
-CHEBI:5779	hydrocodone
-CHEBI:57871	codeine
-CHEBI:5790	hydromorphone
-CHEBI:5801	hydroxychloroquine
-CHEBI:58097	morphine
-CHEBI:58128	theanine
-CHEBI:5818	hydroxyzine
-CHEBI:5819	atarax
-CHEBI:5855	advil
-CHEBI:5855	ibuprofen
-CHEBI:5855	motrin
-CHEBI:585948	felodipine
-CHEBI:5893	indapamide
-CHEBI:58987	sildenafil citrate
-CHEBI:58987	viagra
-CHEBI:5931	human insulin
-CHEBI:5956	ipratropium
-CHEBI:5959	avapro
-CHEBI:5959	irbesartan
-CHEBI:59662	colistimethate
-CHEBI:59676	nystatin
-CHEBI:59826	progestin
-CHEBI:60004	mixture
-CHEBI:60311	thyroid hormone
-CHEBI:6060	isosorbide
-CHEBI:6062	imdur
-CHEBI:6062	isosorbide mononitrate
-CHEBI:61049	prograf
-CHEBI:61049	tacrolimus
-CHEBI:61058	methyldopa
-CHEBI:61176	relpax
-CHEBI:6130	acular
-CHEBI:62932	mycophenolate
-CHEBI:63112	gilenya
-CHEBI:6343	labetalol
-CHEBI:63597	lupron
-CHEBI:63598	levofloxacin
-CHEBI:63610	arthrotec
-CHEBI:63610	misoprostol
-CHEBI:63613	nevirapine
-CHEBI:63618	pravastatin
-CHEBI:63619	propafenone
-CHEBI:63622	sotalol
-CHEBI:63629	tizanidine
-CHEBI:63631	topamax
-CHEBI:63631	topiramate
-CHEBI:63635	valganciclovir
-CHEBI:6367	lamictal
-CHEBI:6367	lamotrigine
-CHEBI:6375	lansoprazole
-CHEBI:6375	prevacid
-CHEBI:63791	revlimid
-CHEBI:6384	latanoprost
-CHEBI:6384	xalatan
-CHEBI:63845	sulfacetamide
-CHEBI:63858	sodium sulfacetamide
-CHEBI:6402	leflunomide
-CHEBI:6413	femara
-CHEBI:6413	letrozol
-CHEBI:6413	letrozole
-CHEBI:64312	memantine
-CHEBI:64356	lyrica
-CHEBI:6437	keppra
-CHEBI:6437	levetiracetam
-CHEBI:6443	levonorgestrel
-CHEBI:6443	mirena
-CHEBI:64457	besylate
-CHEBI:6446	levothroid
-CHEBI:6446	levothyroxine sodium
-CHEBI:6446	levoxyl
-CHEBI:6446	synthroid
-CHEBI:645509	diltiazem hydrochloride
-CHEBI:6456	lidocaine
-CHEBI:6484	cytomel
-CHEBI:6504	lithium carbonate
-CHEBI:65173	fanapt
-CHEBI:6519	lomotil
-CHEBI:65265	antacid
-CHEBI:6532	loperamide
-CHEBI:6533	imodium
-CHEBI:6533	loperamide hcl
-CHEBI:6533	loperamide hydrochloride
-CHEBI:65347	carfilzomib
-CHEBI:65349	mirabegron
-CHEBI:65349	myrbetriq
-CHEBI:6538	alavert
-CHEBI:6538	allerclear
-CHEBI:6538	claritin
-CHEBI:6538	loratadine
-CHEBI:6539	ativan
-CHEBI:6539	lorazepam
-CHEBI:6541	losartan
-CHEBI:6637	milk of magnesia
-CHEBI:66852	belviq
-CHEBI:66981	ophthalmic
-CHEBI:6709	meclizine
-CHEBI:6715	medroxyprogesterone
-CHEBI:67155	myfortic
-CHEBI:6716	depo-provera
-CHEBI:6741	meloxicam
-CHEBI:6741	mobic
-CHEBI:6775	asacol
-CHEBI:6775	canasa
-CHEBI:6775	mesalamine
-CHEBI:6775	pentasa
-CHEBI:6797	metaxalone
-CHEBI:6801	metformin
-CHEBI:6801	metformina
-CHEBI:6802	glucophage
-CHEBI:6802	metformin hcl
-CHEBI:6807	methadone
-CHEBI:6824	methenamine
-CHEBI:6825	methenamine hippurate
-CHEBI:6832	methocarbamol
-CHEBI:68551	linzess
-CHEBI:68558	brilinta
-CHEBI:68558	ticagrelor
-CHEBI:68579	rivaroxaban
-CHEBI:68579	xarelto
-CHEBI:68610	tradjenta
-CHEBI:68840	horizant
-CHEBI:6887	methylphenidate
-CHEBI:6904	metoprolol
-CHEBI:6905	metoprolol succinate
-CHEBI:6906	metoprolol tartrate
-CHEBI:6909	metronidazole
-CHEBI:6942	minoxidil
-CHEBI:6950	mirtazapine
-CHEBI:6970	mometasone
-CHEBI:6993	montelukast sodium
-CHEBI:6993	singulair
-CHEBI:6993	singular
-CHEBI:70705	viibryd
-CHEBI:70732	latuda
-CHEBI:70743	pradaxa
-CHEBI:71193	victoza
-CHEBI:71197	xeljanz
-CHEBI:71271	onglyza
-CHEBI:71415	nitrofurantoin
-CHEBI:71416	phenazopyridine
-CHEBI:71418	triamcinolone acetonide
-CHEBI:71940	cialis
-CHEBI:71940	tadalafil
-CHEBI:72296	apixaban
-CHEBI:72296	eliquis
-CHEBI:73272	canagliflozin
-CHEBI:73272	invokana
-CHEBI:73274	canagliflozin
-CHEBI:73275	osphena
-CHEBI:7443	nabumetone
-CHEBI:7443	relafen
-CHEBI:7444	nadolol
-CHEBI:7465	naltrexone
-CHEBI:746859	travatan
-CHEBI:746859	travatan z
-CHEBI:746859	travoprost
-CHEBI:7476	naproxen
-CHEBI:7477	naproxen sodium
-CHEBI:74899	veramyst
-CHEBI:75037	vilanterol
-CHEBI:75043	breo ellipta
-CHEBI:7507	neomycin
-CHEBI:7565	nifedipine
-CHEBI:75769	b vitamin
-CHEBI:75769	vitamin b
-CHEBI:75832	ferrous sulfate
-CHEBI:75984	flecainide
-CHEBI:76004	tecfidera
-CHEBI:7627	micronor
-CHEBI:7627	norethindrone
-CHEBI:7640	nortriptyline
-CHEBI:7641	pamelor
-CHEBI:7660	nystatin
-CHEBI:77249	crestor
-CHEBI:77249	rosuvastatin calcium
-CHEBI:7735	zyprexa
-CHEBI:77590	armodafinil
-CHEBI:77590	nuvigil
-CHEBI:77614	terbinafine hcl
-CHEBI:7769	olopatadine
-CHEBI:7769	olopatadine hcl
-CHEBI:7769	patanol
-CHEBI:77715	decongestant
-CHEBI:77715	nasal decongestant
-CHEBI:7772	omeprazol
-CHEBI:7772	omeprazole
-CHEBI:7773	ondansetron
-CHEBI:7824	oxcarbazepine
-CHEBI:78425	tanzeum
-CHEBI:7852	oxycodone
-CHEBI:7856	oxybutynin
-CHEBI:7857	oxybutynin chloride
-CHEBI:7859	oxycodone hcl
-CHEBI:7915	pantoprazole
-CHEBI:7936	paroxetine
-CHEBI:7944	paroxetine hcl
-CHEBI:7944	paxil
-CHEBI:7986	pentoxifylline
-CHEBI:8059	phendimetrazine
-CHEBI:8060	phenelzine
-CHEBI:8080	phentermine
-CHEBI:8093	phenylephrine
-CHEBI:8107	dilantin
-CHEBI:8214	pindolol
-CHEBI:8228	pioglitazone
-CHEBI:82405	benzoyl peroxide
-CHEBI:82718	jublia
-CHEBI:82720	jardiance
-CHEBI:83469	fenofibric acid
-CHEBI:8356	pramipexole
-CHEBI:8361	pravastatin sodium
-CHEBI:8364	prazosin
-CHEBI:83766	lynparza
-CHEBI:8378	prednisolone
-CHEBI:8380	prednisolone acetate
-CHEBI:8382	prednisone
-CHEBI:8389	premarin
-CHEBI:8412	primidone
-CHEBI:8426	probenecid
-CHEBI:8461	promethazine
-CHEBI:8462	promethazine hcl
-CHEBI:84883	vascepa
-CHEBI:8499	propanolol
-CHEBI:8499	propranolol
-CHEBI:85079	farxiga
-CHEBI:85146	carboxymethylcellulose
-CHEBI:8707	quetiapine
-CHEBI:8708	quetiapine fumarate
-CHEBI:8708	seroquel
-CHEBI:8713	quinapril
-CHEBI:8746	levosalbutamol
-CHEBI:87631	statin
-CHEBI:8764	cellcept
-CHEBI:8768	rabeprazole
-CHEBI:87681	ranexa
-CHEBI:87681	ranolazine
-CHEBI:8769	aciphex
-CHEBI:87697	effient
-CHEBI:8772	raloxifene
-CHEBI:8774	ramipril
-CHEBI:8776	ranitidine
-CHEBI:8777	ranitidine hcl
-CHEBI:8777	zantac
-CHEBI:8869	actonel
-CHEBI:8869	risedronate
-CHEBI:8871	risperdal
-CHEBI:8874	rivastigmine
-CHEBI:8888	ropinirole
-CHEBI:9012	serevent
-CHEBI:90922	genvoya
-CHEBI:9123	sertraline
-CHEBI:9124	sertraline hcl
-CHEBI:9124	zoloft
-CHEBI:9139	sildenafil
-CHEBI:9142	silver sulfadiazine
-CHEBI:9150	simvastatin
-CHEBI:9150	simvastatine
-CHEBI:9150	zocor
-CHEBI:9207	sotalol hcl
-CHEBI:9241	spironolactone
-CHEBI:9313	sucralfate
-CHEBI:9328	sulfadiazine
-CHEBI:9334	sulfasalazine
-CHEBI:9398	tamsulosin
-CHEBI:9399	flomax
-CHEBI:9434	micardis
-CHEBI:9434	telmisartan
-CHEBI:9435	temazepam
-CHEBI:9445	terazosin
-CHEBI:9448	terbinafine
-CHEBI:94559	xyzal
-CHEBI:9463	testosterone cypionate
-CHEBI:9584	armour thyroid
-CHEBI:9584	nature-throid
-CHEBI:9600	timolol maleate
-CHEBI:9622	tolterodine
-CHEBI:9637	torsemide
-CHEBI:9648	tramadol
-CHEBI:9654	trazodone
-CHEBI:9667	triamcinolone
-CHEBI:9671	triamterene
-CHEBI:9674	halcion
-CHEBI:9927	diovan
-CHEBI:9927	valsartan
-CHEBI:9943	venlafaxine
-CHEBI:9944	venlafaxine hcl
-CHEBI:9948	verapamil
+chemical	medication	
+CHEBI:10033	warfarin	
+CHEBI:10034	coumadin	
+CHEBI:10100	zafirlukast	
+CHEBI:10102	zaleplon	
+CHEBI:10124	zolmitriptan	
+CHEBI:10124	zomig	
+CHEBI:10125	zolpidem	
+CHEBI:10126	zolpidem tartrate	
+CHEBI:10127	zonisamide	
+CHEBI:101278	diltiazem	
+CHEBI:10545	beta	
+CHEBI:10650	imitrex	
+CHEBI:10650	sumatriptan	
+CHEBI:119915	duragesic	
+CHEBI:127342	atomoxetine	
+CHEBI:131389	magnesium citrate	
+CHEBI:132950	tartrate	
+CHEBI:132951	maleate	
+CHEBI:132952	oxalate	
+CHEBI:132966	hippurate	
+CHEBI:133007	descovy	
+CHEBI:133010	odefsey	
+CHEBI:133023	xiidra	
+CHEBI:134716	rexulti	
+CHEBI:134765	isometheptene	
+CHEBI:135530	solifenacin	
+CHEBI:135530	vesicare	
+CHEBI:135920	toviaz	
+CHEBI:135922	symlin	
+CHEBI:135925	vyvanse	
+CHEBI:135929	rapaflo	
+CHEBI:135931	dexilant	
+CHEBI:135935	nucynta	
+CHEBI:135939	vimpat	
+CHEBI:136040	fetzima	
+CHEBI:13643	glycol	
+CHEBI:141029	pilocarpine hcl	
+CHEBI:145791	trospium	
+CHEBI:145810	insulin	
+CHEBI:15356	cysteine	
+CHEBI:15365	asa	
+CHEBI:15365	aspirin	
+CHEBI:15367	tretinoin	
+CHEBI:15414	s-adenosylmethionine	
+CHEBI:15640	leucovorin	
+CHEBI:15765	levodopa	
+CHEBI:15858	bromide	
+CHEBI:15940	niacin	
+CHEBI:15940	niaspan	
+CHEBI:15948	lycopene	
+CHEBI:15956	biotin	
+CHEBI:16113	cholesterol	
+CHEBI:16137	chondroitin	
+CHEBI:16336	hyaluronic acid	
+CHEBI:16347	l-carnitine	
+CHEBI:16494	lipoic acid	
+CHEBI:16714	codeine	
+CHEBI:16737	creatinine	
+CHEBI:16796	melatonin	
+CHEBI:168396	mycophenolate	
+CHEBI:17026	progesterone	
+CHEBI:17126	carnitine	
+CHEBI:17272	propionate	
+CHEBI:17303	morphine	
+CHEBI:17347	testosteron	
+CHEBI:17347	testosterone	
+CHEBI:17439	cyanocobalamin	
+CHEBI:17486	hyoscyamine	
+CHEBI:17544	bicarbonate	
+CHEBI:17594	hydroquinone	
+CHEBI:176304	azythromycin	
+CHEBI:17650	hydrocortisone	
+CHEBI:176783	vitamin c	
+CHEBI:176843	vitamin b12	
+CHEBI:17823	calcitriol	
+CHEBI:17976	ubiquinol	
+CHEBI:18050	l-glutamine	
+CHEBI:18248	iron	
+CHEBI:18258	liothyronine	
+CHEBI:18332	l-thyroxine	
+CHEBI:18332	levothyroxin	
+CHEBI:18332	levothyroxine	
+CHEBI:188978	benzalkonium	
+CHEBI:190513	calcium citrate	
+CHEBI:204734	desonide	
+CHEBI:205919	clobetasol	
+CHEBI:22652	ascorbic acid	
+CHEBI:22733	benzoyl	
+CHEBI:22984	calcium	
+CHEBI:23359	colchicine	
+CHEBI:2379	acebutolol	
+CHEBI:2380	sectral	
+CHEBI:23888	drug	
+CHEBI:23965	estradiol	
+CHEBI:24265	gluconate	
+CHEBI:2453	acyclovir	
+CHEBI:24859	iodine	
+CHEBI:24996	lactate	
+CHEBI:25094	lysine	
+CHEBI:25107	magnesium	
+CHEBI:2549	albuterol	
+CHEBI:2549	proventil	
+CHEBI:2550	albuterol sulfate	
+CHEBI:2550	ventolin	
+CHEBI:2566	fosamax	
+CHEBI:2567	alendronate	
+CHEBI:25681	omega-3 fatty acids	
+CHEBI:2611	alprazolam	
+CHEBI:2611	xanax	
+CHEBI:26216	potassium	
+CHEBI:2639	amiloride	
+CHEBI:2663	amiodarone	
+CHEBI:2666	amitriptylin	
+CHEBI:2666	amitriptyline	
+CHEBI:2667	elavil	
+CHEBI:2668	amlodipine	
+CHEBI:2669	amlodipine besylate	
+CHEBI:26710	sodium chloride	
+CHEBI:2676	amoxicillin	
+CHEBI:2679	amphetamin	
+CHEBI:2679	amphetamine	
+CHEBI:2704	anastrozole	
+CHEBI:27300	vitamin d	
+CHEBI:27363	zinc	
+CHEBI:27436	methyltestosterone	
+CHEBI:27470	folic acid	
+CHEBI:27547	zeaxanthin	
+CHEBI:27690	acetazolamide	
+CHEBI:27693	sitosterol	
+CHEBI:27732	caffeine	
+CHEBI:27786	hydroxycobalamin	
+CHEBI:27974	estriol	
+CHEBI:28001	vancomycin	
+CHEBI:28077	rifampin	
+CHEBI:28115	methylcobalamin	
+CHEBI:28171	5-htp	
+CHEBI:28177	theophylline	
+CHEBI:28300	glutamine	
+CHEBI:28364	epa	
+CHEBI:28689	dehydroepiandrosterone	
+CHEBI:28787	nitrolingual	
+CHEBI:28787	nitrostat	
+CHEBI:28838	lutein	
+CHEBI:28918	epipen	
+CHEBI:28934	calciferol	
+CHEBI:28934	ergocalciferol	
+CHEBI:28934	vitamin d2	
+CHEBI:28938	ammonium	
+CHEBI:28940	cholecalciferol	
+CHEBI:28940	vitamin d3	
+CHEBI:2904	atenolol	
+CHEBI:291342	desloratadine	
+CHEBI:2948	azathioprine	
+CHEBI:2950	azelastine	
+CHEBI:2951	azelastine hcl	
+CHEBI:2955	azithromycin	
+CHEBI:2972	baclofen	
+CHEBI:29806	fumarate	
+CHEBI:3001	beclometasone	
+CHEBI:3011	benazepril	
+CHEBI:3012	benazepril hcl	
+CHEBI:3012	lotensin	
+CHEBI:30145	lithium	
+CHEBI:3032	benzonatate	
+CHEBI:30623	oxalate	
+CHEBI:30660	thyroxine	
+CHEBI:3077	betamethasone	
+CHEBI:30830	xyrem	
+CHEBI:31236	abilify	
+CHEBI:31243	reyataz	
+CHEBI:3127	bisoprolol	
+CHEBI:31276	betamethasone dipropionate	
+CHEBI:3128	bisoprolol fumarate	
+CHEBI:31281	bepreve	
+CHEBI:31348	xeloda	
+CHEBI:31401	cilostazol	
+CHEBI:31414	clobetasol propionate	
+CHEBI:31441	fluticasone propionate	
+CHEBI:31526	cymbalta	
+CHEBI:31596	uloric	
+CHEBI:31608	ferrous gluconate	
+CHEBI:31625	fluorometholone	
+CHEBI:31680	vistaril	
+CHEBI:3175	brimonidine	
+CHEBI:3176	azopt	
+CHEBI:31794	magnesia	
+CHEBI:31794	magnesium oxide	
+CHEBI:3181	bromocriptine	
+CHEBI:31836	concerta	
+CHEBI:31836	methylphenidate hcl	
+CHEBI:31836	ritalin	
+CHEBI:31859	modafinil	
+CHEBI:31859	provigil	
+CHEBI:31932	olmesartan medoxomil	
+CHEBI:32032	potassium gluconate	
+CHEBI:3207	budesonide	
+CHEBI:3213	bumetanide	
+CHEBI:32139	sodium bicarbonate	
+CHEBI:3219	bupropion	
+CHEBI:3220	wellbutrin	
+CHEBI:3223	buspirone	
+CHEBI:3224	buspar	
+CHEBI:32250	tramadol hcl	
+CHEBI:32314	geodon	
+CHEBI:32588	kcl	
+CHEBI:32588	klor-con	
+CHEBI:32588	potassium chloride	
+CHEBI:3286	cabergoline	
+CHEBI:3306	calcitonin	
+CHEBI:3311	calcium carbonate	
+CHEBI:33234	vitamin e	
+CHEBI:3387	carbamazepine	
+CHEBI:3395	carbidopa	
+CHEBI:3396	carbidopa-levodopa	
+CHEBI:3419	carisoprodol	
+CHEBI:3424	carnitine	
+CHEBI:34385	ampyra	
+CHEBI:3441	carvedilol	
+CHEBI:34650	colistimethate	
+CHEBI:34730	doxycycline hyclate	
+CHEBI:34945	amitiza	
+CHEBI:3515	cefuroxime	
+CHEBI:3534	cephalexin	
+CHEBI:35366	fatty acids	
+CHEBI:3561	cetirizine	
+CHEBI:3562	cetirizine hydrochloride	
+CHEBI:3568	cevimeline	
+CHEBI:35854	valacyclovir	
+CHEBI:3645	chlorpheniramine maleate	
+CHEBI:3654	chlorthalidone	
+CHEBI:36791	escitalopram	
+CHEBI:36796	duloxetine	
+CHEBI:3723	citalopram	
+CHEBI:3724	celexa	
+CHEBI:3724	citalopram hydrobromide	
+CHEBI:37391	cyclen	
+CHEBI:37397	chondroitin sulfate	
+CHEBI:3745	clindamycin	
+CHEBI:3746	clindamycin phosphate	
+CHEBI:3756	clonazepam	
+CHEBI:3759	clopidogrel bisulfate	
+CHEBI:3759	plavix	
+CHEBI:3764	clotrimazole	
+CHEBI:37941	clopidogrel	
+CHEBI:37956	antihistamine	
+CHEBI:3814	colestipol	
+CHEBI:38545	rosuvastatin	
+CHEBI:39462	pilocarpine	
+CHEBI:39465	timolol	
+CHEBI:39548	atorvastatin	
+CHEBI:3962	curcumin	
+CHEBI:39867	valproic acid	
+CHEBI:3996	cyclobenzaprine	
+CHEBI:40279	allopurinol	
+CHEBI:40279	alopurinol	
+CHEBI:40303	lovastatin	
+CHEBI:4031	cyclosporine	
+CHEBI:41060	ibandronate	
+CHEBI:41423	celebrex	
+CHEBI:41423	celecoxib	
+CHEBI:41774	tamoxifen	
+CHEBI:41879	dexamethasone	
+CHEBI:42797	gabapentin	
+CHEBI:42797	gabapentine	
+CHEBI:42797	neurontin	
+CHEBI:43755	lisinopril	
+CHEBI:44185	methotrexate	
+CHEBI:4450	ddavp	
+CHEBI:4450	desmopressin	
+CHEBI:4509	diclofenac sodium	
+CHEBI:4514	dicyclomine	
+CHEBI:4551	digoxin	
+CHEBI:46081	diflucan	
+CHEBI:46081	fluconazole	
+CHEBI:46195	acetaminophen	
+CHEBI:46195	apap	
+CHEBI:46195	tylenol	
+CHEBI:46245	coq10	
+CHEBI:46295	levitra	
+CHEBI:4636	diphenhydramine	
+CHEBI:4637	diphenhydramine hcl	
+CHEBI:4659	disulfiram	
+CHEBI:46631	clonidine	
+CHEBI:46659	ipratropium bromide	
+CHEBI:4674	docusate	
+CHEBI:4674	docusate sodium	
+CHEBI:4681	tikosyn	
+CHEBI:4702	dorzolamide	
+CHEBI:4708	doxazosin	
+CHEBI:4710	doxepin	
+CHEBI:47381	diclofenac	
+CHEBI:47426	furosemide	
+CHEBI:47519	ketoconazole	
+CHEBI:4784	enalapril	
+CHEBI:4785	enalapril maleate	
+CHEBI:4814	eprosartan	
+CHEBI:48273	rizatriptan	
+CHEBI:48409	eprosartan mesylate	
+CHEBI:48416	olmesartan	
+CHEBI:48669	tranexamic acid	
+CHEBI:4873	estropipate	
+CHEBI:4877	ethambutol	
+CHEBI:4903	ethinyl estradiol	
+CHEBI:49040	ezetimibe	
+CHEBI:49040	zetia	
+CHEBI:4909	etodolac	
+CHEBI:49168	dopa	
+CHEBI:49325	oral contraceptive	
+CHEBI:4953	exemestane	
+CHEBI:49575	diazepam	
+CHEBI:49575	valium	
+CHEBI:49662	indomethacin	
+CHEBI:4974	famciclovir	
+CHEBI:4975	famotidine	
+CHEBI:4975	pepcid	
+CHEBI:5001	fenofibrate	
+CHEBI:5001	lipofen	
+CHEBI:5001	tricor	
+CHEBI:50114	estrogen	
+CHEBI:50270	pantoprazole sodium	
+CHEBI:50270	protonix	
+CHEBI:50275	esomeprazol	
+CHEBI:50275	esomeprazole	
+CHEBI:50309	esomeprazole magnesium	
+CHEBI:50362	tagamet	
+CHEBI:5050	fexofenadine	
+CHEBI:50503	laxative	
+CHEBI:5051	fexofenadine hydrochloride	
+CHEBI:5062	finasteride	
+CHEBI:50659	multaq	
+CHEBI:50667	6-mercaptopurine	
+CHEBI:50667	mercaptopurine	
+CHEBI:50673	methimazole	
+CHEBI:50686	atorvastatin calcium	
+CHEBI:50686	lipitor	
+CHEBI:50694	minocycline	
+CHEBI:50730	montelukast	
+CHEBI:50740	evista	
+CHEBI:50838	drospirenone	
+CHEBI:50845	doxycycline	
+CHEBI:5102	florinef	
+CHEBI:5109	fluocinonide	
+CHEBI:51141	alfuzosin	
+CHEBI:51148	pramipexole dihydrochloride	
+CHEBI:51157	alphagan p	
+CHEBI:5118	fluoxetine	
+CHEBI:5118	prozac	
+CHEBI:5119	fluoxetine hcl	
+CHEBI:5134	fluticasone	
+CHEBI:5163	fosinopril	
+CHEBI:51860	dexmethylphenidate	
+CHEBI:52010	chlorpheniramine	
+CHEBI:521033	dutasteride	
+CHEBI:5296	gemfibrozil	
+CHEBI:53289	donepezil	
+CHEBI:5383	amaryl	
+CHEBI:5383	glimepiride	
+CHEBI:5384	glipizide	
+CHEBI:5417	glucosamine	
+CHEBI:5551	guaifenesin	
+CHEBI:5558	guanfacine	
+CHEBI:57589	acetyl-l-carnitine	
+CHEBI:5775	hydralazine	
+CHEBI:5778	hydrochlorothiazide	
+CHEBI:5779	hydrocodon	
+CHEBI:5779	hydrocodone	
+CHEBI:57871	codeine	
+CHEBI:5790	hydromorphone	
+CHEBI:5801	hydroxychloroquine	
+CHEBI:58097	morphine	
+CHEBI:58128	theanine	
+CHEBI:5818	hydroxyzine	
+CHEBI:5819	atarax	
+CHEBI:5855	advil	
+CHEBI:5855	ibuprofen	
+CHEBI:5855	motrin	
+CHEBI:585948	felodipine	
+CHEBI:5893	indapamide	
+CHEBI:58987	sildenafil citrate	
+CHEBI:58987	viagra	
+CHEBI:5931	human insulin	
+CHEBI:5956	ipratropium	
+CHEBI:5959	avapro	
+CHEBI:5959	irbesartan	
+CHEBI:59662	colistimethate	
+CHEBI:59676	nystatin	
+CHEBI:59826	progestin	
+CHEBI:60004	mixture	
+CHEBI:60311	thyroid hormone	
+CHEBI:6060	isosorbide	
+CHEBI:6062	imdur	
+CHEBI:6062	isosorbide mononitrate	
+CHEBI:61049	prograf	
+CHEBI:61049	tacrolimus	
+CHEBI:61058	methyldopa	
+CHEBI:61176	relpax	
+CHEBI:6130	acular	
+CHEBI:62932	mycophenolate	
+CHEBI:63112	gilenya	
+CHEBI:6343	labetalol	
+CHEBI:63597	lupron	
+CHEBI:63598	levofloxacin	
+CHEBI:63610	arthrotec	
+CHEBI:63610	misoprostol	
+CHEBI:63613	nevirapine	
+CHEBI:63618	pravastatin	
+CHEBI:63619	propafenone	
+CHEBI:63622	sotalol	
+CHEBI:63629	tizanidine	
+CHEBI:63631	topamax	
+CHEBI:63631	topiramate	
+CHEBI:63635	valganciclovir	
+CHEBI:6367	lamictal	
+CHEBI:6367	lamotrigine	
+CHEBI:6375	lansoprazole	
+CHEBI:6375	prevacid	
+CHEBI:63791	revlimid	
+CHEBI:6384	latanoprost	
+CHEBI:6384	xalatan	
+CHEBI:63845	sulfacetamide	
+CHEBI:63858	sodium sulfacetamide	
+CHEBI:6402	leflunomide	
+CHEBI:6413	femara	
+CHEBI:6413	letrozol	
+CHEBI:6413	letrozole	
+CHEBI:64312	memantine	
+CHEBI:64356	lyrica	
+CHEBI:6437	keppra	
+CHEBI:6437	levetiracetam	
+CHEBI:6443	levonorgestrel	
+CHEBI:6443	mirena	
+CHEBI:64457	besylate	
+CHEBI:6446	levothroid	
+CHEBI:6446	levothyroxine sodium	
+CHEBI:6446	levoxyl	
+CHEBI:6446	synthroid	
+CHEBI:645509	diltiazem hydrochloride	
+CHEBI:6456	lidocaine	
+CHEBI:6484	cytomel	
+CHEBI:6504	lithium carbonate	
+CHEBI:65173	fanapt	
+CHEBI:6519	lomotil	
+CHEBI:65265	antacid	
+CHEBI:6532	loperamide	
+CHEBI:6533	imodium	
+CHEBI:6533	loperamide hcl	
+CHEBI:6533	loperamide hydrochloride	
+CHEBI:65347	carfilzomib	
+CHEBI:65349	mirabegron	
+CHEBI:65349	myrbetriq	
+CHEBI:6538	alavert	
+CHEBI:6538	allerclear	
+CHEBI:6538	claritin	
+CHEBI:6538	loratadine	
+CHEBI:6539	ativan	
+CHEBI:6539	lorazepam	
+CHEBI:6541	losartan	
+CHEBI:6637	milk of magnesia	
+CHEBI:66852	belviq	
+CHEBI:66981	ophthalmic	
+CHEBI:6709	meclizine	
+CHEBI:6715	medroxyprogesterone	
+CHEBI:67155	myfortic	
+CHEBI:6716	depo-provera	
+CHEBI:6741	meloxicam	
+CHEBI:6741	mobic	
+CHEBI:6775	asacol	
+CHEBI:6775	canasa	
+CHEBI:6775	mesalamine	
+CHEBI:6775	pentasa	
+CHEBI:6797	metaxalone	
+CHEBI:6801	metformin	
+CHEBI:6801	metformina	
+CHEBI:6802	glucophage	
+CHEBI:6802	metformin hcl	
+CHEBI:6807	methadone	
+CHEBI:6824	methenamine	
+CHEBI:6825	methenamine hippurate	
+CHEBI:6832	methocarbamol	
+CHEBI:68551	linzess	
+CHEBI:68558	brilinta	
+CHEBI:68558	ticagrelor	
+CHEBI:68579	rivaroxaban	
+CHEBI:68579	xarelto	
+CHEBI:68610	tradjenta	
+CHEBI:68840	horizant	
+CHEBI:6887	methylphenidate	
+CHEBI:6904	metoprolol	
+CHEBI:6905	metoprolol succinate	
+CHEBI:6906	metoprolol tartrate	
+CHEBI:6909	metronidazole	
+CHEBI:6942	minoxidil	
+CHEBI:6950	mirtazapine	
+CHEBI:6970	mometasone	
+CHEBI:6993	montelukast sodium	
+CHEBI:6993	singulair	
+CHEBI:6993	singular	
+CHEBI:70705	viibryd	
+CHEBI:70732	latuda	
+CHEBI:70743	pradaxa	
+CHEBI:71193	victoza	
+CHEBI:71197	xeljanz	
+CHEBI:71271	onglyza	
+CHEBI:71415	nitrofurantoin	
+CHEBI:71416	phenazopyridine	
+CHEBI:71418	triamcinolone acetonide	
+CHEBI:71940	cialis	
+CHEBI:71940	tadalafil	
+CHEBI:72296	apixaban	
+CHEBI:72296	eliquis	
+CHEBI:73272	canagliflozin	
+CHEBI:73272	invokana	
+CHEBI:73274	canagliflozin	
+CHEBI:73275	osphena	
+CHEBI:7443	nabumetone	
+CHEBI:7443	relafen	
+CHEBI:7444	nadolol	
+CHEBI:7465	naltrexone	
+CHEBI:746859	travatan	
+CHEBI:746859	travatan z	
+CHEBI:746859	travoprost	
+CHEBI:7476	naproxen	
+CHEBI:7477	naproxen sodium	
+CHEBI:74899	veramyst	
+CHEBI:75037	vilanterol	
+CHEBI:75043	breo ellipta	
+CHEBI:7507	neomycin	
+CHEBI:7565	nifedipine	
+CHEBI:75769	b vitamin	
+CHEBI:75769	vitamin b	
+CHEBI:75832	ferrous sulfate	
+CHEBI:75984	flecainide	
+CHEBI:76004	tecfidera	
+CHEBI:7627	micronor	
+CHEBI:7627	norethindrone	
+CHEBI:7640	nortriptyline	
+CHEBI:7641	pamelor	
+CHEBI:7660	nystatin	
+CHEBI:77249	crestor	
+CHEBI:77249	rosuvastatin calcium	
+CHEBI:7735	zyprexa	
+CHEBI:77590	armodafinil	
+CHEBI:77590	nuvigil	
+CHEBI:77614	terbinafine hcl	
+CHEBI:7769	olopatadine	
+CHEBI:7769	olopatadine hcl	
+CHEBI:7769	patanol	
+CHEBI:77715	decongestant	
+CHEBI:77715	nasal decongestant	
+CHEBI:7772	omeprazol	
+CHEBI:7772	omeprazole	
+CHEBI:7773	ondansetron	
+CHEBI:7824	oxcarbazepine	
+CHEBI:78425	tanzeum	
+CHEBI:7852	oxycodone	
+CHEBI:7856	oxybutynin	
+CHEBI:7857	oxybutynin chloride	
+CHEBI:7859	oxycodone hcl	
+CHEBI:7915	pantoprazole	
+CHEBI:7936	paroxetine	
+CHEBI:7944	paroxetine hcl	
+CHEBI:7944	paxil	
+CHEBI:7986	pentoxifylline	
+CHEBI:8059	phendimetrazine	
+CHEBI:8060	phenelzine	
+CHEBI:8080	phentermine	
+CHEBI:8093	phenylephrine	
+CHEBI:8107	dilantin	
+CHEBI:8214	pindolol	
+CHEBI:8228	pioglitazone	
+CHEBI:82405	benzoyl peroxide	
+CHEBI:82718	jublia	
+CHEBI:82720	jardiance	
+CHEBI:83469	fenofibric acid	
+CHEBI:8356	pramipexole	
+CHEBI:8361	pravastatin sodium	
+CHEBI:8364	prazosin	
+CHEBI:83766	lynparza	
+CHEBI:8378	prednisolone	
+CHEBI:8380	prednisolone acetate	
+CHEBI:8382	prednisone	
+CHEBI:8389	premarin	
+CHEBI:8412	primidone	
+CHEBI:8426	probenecid	
+CHEBI:8461	promethazine	
+CHEBI:8462	promethazine hcl	
+CHEBI:84883	vascepa	
+CHEBI:8499	propanolol	
+CHEBI:8499	propranolol	
+CHEBI:85079	farxiga	
+CHEBI:85146	carboxymethylcellulose	
+CHEBI:8707	quetiapine	
+CHEBI:8708	quetiapine fumarate	
+CHEBI:8708	seroquel	
+CHEBI:8713	quinapril	
+CHEBI:8746	levosalbutamol	
+CHEBI:87631	statin	
+CHEBI:8764	cellcept	
+CHEBI:8768	rabeprazole	
+CHEBI:87681	ranexa	
+CHEBI:87681	ranolazine	
+CHEBI:8769	aciphex	
+CHEBI:87697	effient	
+CHEBI:8772	raloxifene	
+CHEBI:8774	ramipril	
+CHEBI:8776	ranitidine	
+CHEBI:8777	ranitidine hcl	
+CHEBI:8777	zantac	
+CHEBI:8869	actonel	
+CHEBI:8869	risedronate	
+CHEBI:8871	risperdal	
+CHEBI:8874	rivastigmine	
+CHEBI:8888	ropinirole	
+CHEBI:9012	serevent	
+CHEBI:90922	genvoya	
+CHEBI:9123	sertraline	
+CHEBI:9124	sertraline hcl	
+CHEBI:9124	zoloft	
+CHEBI:9139	sildenafil	
+CHEBI:9142	silver sulfadiazine	
+CHEBI:9150	simvastatin	
+CHEBI:9150	simvastatine	
+CHEBI:9150	zocor	
+CHEBI:9207	sotalol hcl	
+CHEBI:9241	spironolactone	
+CHEBI:9313	sucralfate	
+CHEBI:9328	sulfadiazine	
+CHEBI:9334	sulfasalazine	
+CHEBI:9398	tamsulosin	
+CHEBI:9399	flomax	
+CHEBI:9434	micardis	
+CHEBI:9434	telmisartan	
+CHEBI:9435	temazepam	
+CHEBI:9445	terazosin	
+CHEBI:9448	terbinafine	
+CHEBI:94559	xyzal	
+CHEBI:9463	testosterone cypionate	
+CHEBI:9584	armour thyroid	
+CHEBI:9584	nature-throid	
+CHEBI:9600	timolol maleate	
+CHEBI:9622	tolterodine	
+CHEBI:9637	torsemide	
+CHEBI:9648	tramadol	
+CHEBI:9654	trazodone	
+CHEBI:9667	triamcinolone	
+CHEBI:9671	triamterene	
+CHEBI:9674	halcion	
+CHEBI:9927	diovan	
+CHEBI:9927	valsartan	
+CHEBI:9943	venlafaxine	
+CHEBI:9944	venlafaxine hcl	
+CHEBI:9948	verapamil	
+CHEBI:6541	losartan potassium	
+CHEBI:15365	asprin	
+CHEBI:2679	adderall	
+CHEBI:3562	zyrtec	
+CHEBI:5778	hctz	
+CHEBI:50309	prilosec	
+CHEBI:36791	lexapro	
+CHEBI:50275	nexium	
+CHEBI:5051	allegra	
+CHEBI:74899	flonase	
+CHEBI:10126	ambien	
+CHEBI:31441	advair	
+CHEBI:7476	aleve	
+CHEBI:9654	trazadone	
+CHEBI:4636	benadryl	
+CHEBI:15365	baby aspirin	
+CHEBI:9150	simvistatin	
+CHEBI:9150	simvstatin	
+CHEBI:9150	simvastin	
+CHEBI:9150	simvastation 40 mg	
+CHEBI:9150	simvastatin 40 mg	
+CHEBI:9150	simvastatin 10mg	
+CHEBI:9150	simivastatin	
+CHEBI:9150	simvastatine	
+CHEBI:3562	cetiriz (zyrtec d generic)	
+CHEBI:3562	ceterizine	
+CHEBI:5778	hydrochorothiazide	
+CHEBI:5778	hydrocholorthiazide 25 mg	
+CHEBI:5778	hydrochlothiazide	
+CHEBI:5778	hydrochlorthiazide	
+CHEBI:5778	hydrochlorothizide	
+CHEBI:5778	hydrochlorothiazine	
+CHEBI:5778	hydrochlorothiazinde	
+CHEBI:5778	hydrochlorothiazide 12.5 mg	
+CHEBI:15365	bayer low dose asprin	
+CHEBI:15365	bayer baby aspirin	
+CHEBI:15365	bayer asprin	
+CHEBI:15365	bayer asperine	
+CHEBI:15365	baby asprin	
+CHEBI:15365	baby aspirin 80 mg	
+CHEBI:15365	baby aspian	
+CHEBI:50275	nexium 20 mg	
+CHEBI:50275	nexium 40mg daily	
+CHEBI:15365	81mg aspirin	
+CHEBI:15365	81 mg aspirin	
+CHEBI:3562	zyrtec-d	
+CHEBI:3562	"zyrtec,"	
+CHEBI:3562	zyrtec d	
+CHEBI:3562	zyrtec 10 mg	
+CHEBI:3562	zyrtec	
+CHEBI:3562	zrytec	
+CHEBI:3562	zrtec	
+CHEBI:3562	zirtac	
+CHEBI:3562	zertec	
+CHEBI:2611	zanax	
+CHEBI:3219	wellbutrin xl tabs	
+CHEBI:3219	wellbutrin xl	
+CHEBI:3219	wellbutrin sr	
+CHEBI:3219	wellbutrin	
+CHEBI:3219	wellbutrin	
+CHEBI:3219	wellbuterin xl	
+CHEBI:3219	wellburtin	
+CHEBI:3219	welbutrin xl	
+CHEBI:3219	welbutrin	
+CHEBI:2611	xanxa	
+CHEBI:10033	wafarin	
+CHEBI:10033	wayfarin	
+CHEBI:10033	warfarin	
+CHEBI:10033	warfarin na	
+CHEBI:10033	warafin	
+CHEBI:9943	venlaxifine	
+CHEBI:9943	"venlafaxine,"	
+CHEBI:9943	venlafaxine hcl er	
+CHEBI:9943	venlafaxine hcl 75 mg	
+CHEBI:9943	venlafaxine er	
+CHEBI:9943	venlafaxine  er 75mg	
+CHEBI:9927	valsartin	
+CHEBI:9927	valsarten	
+CHEBI:6905	toprol-xl	
+CHEBI:6905	toprol xl 50 mg per day	
+CHEBI:6905	toprol xl	
+CHEBI:6905	toprol	
+CHEBI:6905	toporol	
+CHEBI:6446	syntroid	
+CHEBI:6446	synthyroid	
+CHEBI:6446	synthyroid 125 mcg	
+CHEBI:6446	synthyroid	
+CHEBI:6446	synthroid	
+CHEBI:6446	"synthroid, 125 mg"	
+CHEBI:6446	synthroid 75 mcg	
+CHEBI:6446	synthroid 175 mug	
+CHEBI:6446	synthroid 125mcg	
+CHEBI:6446	synthroid .075	
+CHEBI:6446	synthroid (or generic levothyroxine)	
+CHEBI:6446	syntheroid	
+CHEBI:9124	setraline hcl	
+CHEBI:9124	sertraline hcl tabs 100mg	
+CHEBI:9124	sertraline hcl 50mg	
+CHEBI:9124	sertraline 50mg tab	
+CHEBI:9124	sertraline 50 mg	
+CHEBI:9124	sertralene	
+CHEBI:9124	sertaline	
+CHEBI:7772	omoprezole	
+CHEBI:7772	omneprezole	
+CHEBI:7772	omneprazole	
+CHEBI:7772	omerprazole	
+CHEBI:7772	omeprqzol	
+CHEBI:7772	omeprozole	
+CHEBI:7772	omeprozol	
+CHEBI:7772	omeprozle	
+CHEBI:7772	omeprezole	
+CHEBI:7772	omeprezol	
+CHEBI:7772	omeprazole sr 20 mg	
+CHEBI:7772	omeprazole dr cer	
+CHEBI:7772	omeprazole dr 40 mg	
+CHEBI:7772	omeprazole dr	
+CHEBI:7772	omeprazole 2omg	
+CHEBI:7772	omeprazole 20mg	
+CHEBI:7772	omeprazole 20 mg	
+CHEBI:7772	omeprazole 20 mg with magnesium	
+CHEBI:7772	omeprasole	
+CHEBI:7772	omeparzole	
+CHEBI:7772	omaprezizole	
+CHEBI:6904	metroprolol er succinate 100mg tabs	
+CHEBI:6904	metroprolol	
+CHEBI:6904	metroporol	
+CHEBI:6904	metropolol	
+CHEBI:6904	metropol	
+CHEBI:6904	metphormin	
+CHEBI:6904	metotoporol	
+CHEBI:6904	metoprolol	
+CHEBI:6904	metoprolol tartrade	
+CHEBI:6904	metoprolol succ er 50 mg tab	
+CHEBI:6904	metoprolol succ er 50 mg  am	
+CHEBI:6904	metoprolol succ er	
+CHEBI:6904	metoprolol succ	
+CHEBI:6904	metoprolol er	
+CHEBI:6904	metoprolol	
+CHEBI:6904	metoprol	
+CHEBI:6904	metoporol	
+CHEBI:6801	metfromin	
+CHEBI:6801	metformin	
+CHEBI:6801	metformin	
+CHEBI:6801	metformin spironolactone and 81 mg. aspirin.	
+CHEBI:6801	metformin hcl-er	
+CHEBI:6801	metformin hcl er	
+CHEBI:6801	metformin er	
+CHEBI:6801	metformin 	
+CHEBI:6801	metformin 850mg	
+CHEBI:6801	metformin 500 mg	
+CHEBI:6801	metforman hcl	
+CHEBI:6801	metforman	
+CHEBI:6801	metform	
+CHEBI:6801	metaformin	
+CHEBI:6904	metatoprolol	
+CHEBI:6904	metatoprol	
+CHEBI:6904	metaprolol	
+CHEBI:6541	losatrtan/hct	
+CHEBI:6541	losarton potassium	
+CHEBI:6541	"losartin, hctz"	
+CHEBI:6541	losartin hctz	
+CHEBI:6541	losartin atorvastol	
+CHEBI:6541	losartin	
+CHEBI:6541	losarten	
+CHEBI:6541	losartan?hctz	
+CHEBI:6541	losartan/hctz	
+CHEBI:6541	losartan/hct	
+CHEBI:6541	losartan. potassium	
+CHEBI:6541	losartan-hetz	
+CHEBI:6541	losartan-hctz	
+CHEBI:6541	losartan potassium tab	
+CHEBI:6541	losartan potassium	
+CHEBI:6541	losartan hctz	
+CHEBI:6541	losartan - 25 mg	
+CHEBI:6541	lorsatin potassium	
+CHEBI:6541	lorsartin potassium	
+CHEBI:43755	lisonpril/hctz	
+CHEBI:43755	lisonopril	
+CHEBI:43755	lisnopril	
+CHEBI:43755	lisiopril	
+CHEBI:43755	lisinpril	
+CHEBI:43755	lisinoptil hctz	
+CHEBI:43755	lisinopryl/hctz	
+CHEBI:43755	lisinoprol	
+CHEBI:43755	lisinoprill	
+CHEBI:43755	lisinopril=hctz	
+CHEBI:43755	lisinopril/hctz   10-12.5mg	
+CHEBI:43755	lisinopril/hctz	
+CHEBI:43755	lisinopril-hydrochlorothiazide	
+CHEBI:43755	lisinopril-hctz tab 20 mg	
+CHEBI:43755	lisinopril-hctz 20-12.5ta	
+CHEBI:43755	lisinopril-hctz	
+CHEBI:43755	lisinopril with hctz	
+CHEBI:43755	lisinopril hctz	
+CHEBI:43755	lisinopril 20mg qday	
+CHEBI:43755	lisinopril 12.5mg	
+CHEBI:43755	lisinopril  .05mg	
+CHEBI:43755	lisinop / hctz 20-12	
+CHEBI:43755	lisiniprol	
+CHEBI:43755	lisinipril/hctz	
+CHEBI:43755	lisinipril 10mg	
+CHEBI:43755	lisinipril	
+CHEBI:43755	lisinapril 30mg	
+CHEBI:43755	lisenopril	
+CHEBI:43755	linsiopril	
+CHEBI:43755	linsinopril	
+CHEBI:6446	levoxathyroxen	
+CHEBI:6446	levothyrozine	
+CHEBI:6446	levothyrozin	
+CHEBI:6446	levothyroxine	
+CHEBI:6446	levothyroxine	
+CHEBI:6446	levothyroxine sodium 50 mcg	
+CHEBI:6446	levothyroxine sodim	
+CHEBI:6446	levothyroxine 75mcg	
+CHEBI:6446	levothyroxine 1oomcg	
+CHEBI:6446	levothyroxine 125	
+CHEBI:6446	levothyroxine 100 mcg	
+CHEBI:6446	levothyroxine 0.075 mg tabs	
+CHEBI:6446	levothyroxine (levoxyl)	
+CHEBI:6446	levothyroxin 88 mcg	
+CHEBI:6446	levothyroxin 100mcg	
+CHEBI:6446	levothtroxine	
+CHEBI:6446	levothryoxine	
+CHEBI:6446	levothoroxine	
+CHEBI:6446	levathroxin	
+CHEBI:6446	levathoroxyn	
+CHEBI:5855	ibuprophen	
+CHEBI:5855	ibuprofren	
+CHEBI:5855	ibuprofin	
+CHEBI:5855	ibuprofen tablets	
+CHEBI:5855	ibuprofen and tylenol	
+CHEBI:5855	ibuprofen 800	
+CHEBI:5855	ibuprofen 600mg	
+CHEBI:5855	ibprofphin	
+CHEBI:5855	ibprofen	
+CHEBI:5855	ibouprofen	
+CHEBI:5778	hydroclorothiazide	
+CHEBI:5778	hydrochorothiazide	
+CHEBI:5778	hydrocholorthiazide 25 mg	
+CHEBI:5778	hydrochlothiazide	
+CHEBI:5778	hydrochlorthiazide	
+CHEBI:5778	hydrochlorthiazide	
+CHEBI:5778	hydrochlorothyazide	
+CHEBI:5778	hydrochlorothizide	
+CHEBI:5778	hydrochlorothiazine	
+CHEBI:5778	hydrochlorothiazinde	
+CHEBI:5778	hydrochlorothiazide 12.5 mg	
+CHEBI:5778	hydrochlorathiazide	
+CHEBI:42797	gapentin	
+CHEBI:42797	gabapentin	
+CHEBI:42797	gabapentin	
+CHEBI:42797	gabapentin 300mg 4 a day	
+CHEBI:42797	gabapenten	
+CHEBI:42797	gabantin	
+CHEBI:23965	estrogen/estradiol	
+CHEBI:23965	estrogen hormone patch	
+CHEBI:23965	estrodiol	
+CHEBI:23965	estriol 0.1% vaginal cream	
+CHEBI:23965	estring	
+CHEBI:23965	estratest	
+CHEBI:23965	estradol	
+CHEBI:23965	estradiol 2 mg	
+CHEBI:23965	estradiol 0.025 mg patch	
+CHEBI:23965	estrace cream	
+CHEBI:23965	estrace	
+CHEBI:101278	diltizem	
+CHEBI:101278	diltiazem	
+CHEBI:101278	diltiazem hclcd	
+CHEBI:101278	diltiazem er	
+CHEBI:101278	diltiazem cd	
+CHEBI:101278	diltiazem 240 mg 1 capsul daily	
+CHEBI:101278	diltiazem 24 hr cd 120 mg cap	
+CHEBI:101278	diltiazem 180	
+CHEBI:101278	diltiaz	
+CHEBI:3219	buproprion  (welbutrin)	
+CHEBI:3219	buproprion	
+CHEBI:3219	bupropion xl	
+CHEBI:3219	bupropion sr	
+CHEBI:3219	bupropion hcl xl	
+CHEBI:3219	bupropion hcl sr 150 mg.	
+CHEBI:3219	bupropion hcl sr 150 mg	
+CHEBI:3219	bupropion hcl sr	
+CHEBI:3219	bupropion hc xl	
+CHEBI:3219	bupropin	
+CHEBI:3219	bupropian	
+CHEBI:49323	birth control progesterone only	
+CHEBI:49323	birth control pills	
+CHEBI:49323	birth control pill	
+CHEBI:49323	birth control orthy tricylin	
+CHEBI:49323	birth control (junel fe)	
+CHEBI:49323	birth control	
+CHEBI:15365	bayer low dose asprin	
+CHEBI:15365	bayer baby aspirin	
+CHEBI:15365	bayer asprin	
+CHEBI:15365	bayer aspirin	
+CHEBI:15365	bayer asperine	
+CHEBI:15365	baby asprin	
+CHEBI:15365	baby aspirin 80 mg	
+CHEBI:15365	baby aspirin	
+CHEBI:15365	baby aspian	
+CHEBI:15365	asprin 81	
+CHEBI:15365	asprin	
+CHEBI:15365	aspirin low dose	
+CHEBI:15365	aspirin ec . oral tab.deleayed release	
+CHEBI:15365	aspirin 81mg	
+CHEBI:15365	aspirin 81 mg	
+CHEBI:15365	aspirin 325 mg 2x/day or naproxen sodium 250 mg x2 per day	
+CHEBI:15365	"aspirin 325 mg , atenolol, zocor, tenaretic, lotrel, k-due, hcz,"	
+CHEBI:15365	aspirin 325 mg	
+CHEBI:15365	aspirin - low dose chewable	
+CHEBI:15365	aspiran	
+CHEBI:15365	"aspin,anpoline,"	
+CHEBI:15365	asperin 41mg	
+CHEBI:15365	asperin	
+CHEBI:15365	asa 81mg	
+CHEBI:15365	asa 325 mg qd	
+CHEBI:15365	as a81mg.	
+CHEBI:39548	atovorstatin	
+CHEBI:39548	atorvistatin	
+CHEBI:39548	atorvistaten	
+CHEBI:39548	atorvastitin	
+CHEBI:39548	"atorvastin, 10mg"	
+CHEBI:39548	"atorvastin 10mg,estropipate .625mg, loratadine, omeprazole ibuprofen"	
+CHEBI:39548	atorvastin	
+CHEBI:39548	atorvastaton	
+CHEBI:39548	atorvastation	
+CHEBI:39548	atorvastatin 10mg	
+CHEBI:39548	atorvastain	
+CHEBI:39548	atorvasratin 20mg  1 night	
+CHEBI:39548	atorastatin	
+CHEBI:39548	atavorostatin	
+CHEBI:39548	astorvastatin	
+CHEBI:2668	amlopidine besylate	
+CHEBI:2668	amlodpine 5mg	
+CHEBI:2668	amlodopine	
+CHEBI:2668	amlodopin	
+CHEBI:2668	amlodipine-benazepril	
+CHEBI:2668	amlodipine tab	
+CHEBI:2668	amlodipine besylate	
+CHEBI:2668	amlodipine besylate 10mg	
+CHEBI:2668	amlodipine benazepril	
+CHEBI:2668	amlodipine 5mg 1 x day	
+CHEBI:2668	amlodipine 5mg	
+CHEBI:2668	amlodipine 10 mg./irbesartan&hctz 150/12.5	
+CHEBI:2668	amlodipine 10 mg	
+CHEBI:2668	amlodipene	
+CHEBI:2668	amlodip-benazep 10/20	
+CHEBI:2668	amlodapine	
+CHEBI:2668	amlod/benaz 10-40	

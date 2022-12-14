@@ -2,10 +2,10 @@ name: 'pegsexb_subject2medication'
 
 format: 'csv'
 
-delimiter: ','
+delimiter: '\t'
 
 files:
-  - './data/epr_eb_test_data.csv'
+  - './data/raw/epr.eb.tsv'
 
 depends_on:
   - './kg_pegs/transform_utils/pegs_survey_exposomeB/reported_medication_to_chebi_map.yaml'
