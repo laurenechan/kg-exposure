@@ -1,0 +1,21 @@
+name: 'fdcid_to_foodon_map'
+
+metadata:
+  description: 'File for mapping fdc_id to foodon'
+
+format: 'csv'
+delimiter: '\t'
+
+files:
+  - './kg_pegs/transform_utils/nutrient_USDA/translation_map_foodon2fdc_id.yaml'
+
+header: 'none'
+
+columns:
+  - 'fdc_id'
+  - 'foodon_id'
+
+key: 'fdc_id'
+
+values:
+  - 'foodon_id'

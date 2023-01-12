@@ -10,8 +10,13 @@ from kgx.cli.cli_utils import transform
 
 
 ONTOLOGIES = {
-    'ChebiTransform': 'chebi.owl.gz',
-    'EnvoTransform': 'envo.json'
+    'ChebiTransform': 'chebi_kgx_tsv.tar.gz',
+    'EnvoTransform': 'envo_kgx_tsv.tar.gz',
+    'MondoTransform': 'mondo_kgx_tsv.tar.gz',
+    'HpTransform': 'hp_kgx_tsv.tar.gz',
+    'EctoTransform': 'ecto_kgx_tsv.tar.gz',
+    'MaxoTransform': 'maxo_kgx_tsv.tar.gz',
+    'FoodonTransform': 'foodon_kgx_tsv.tar.gz'
 }
 
 class OntologyTransform(Transform):
@@ -52,22 +57,9 @@ class OntologyTransform(Transform):
              None.
         """
         print(f"Parsing {data_file}")
-        
-        # Decompress if needed
-        if data_file[-3:] == ".gz":
-            outfile = data_file[:-3]
-            with gzip.open(data_file, 'rb') as f_in:
-                with open(outfile, 'wb') as f_out:
-                    shutil.copyfileobj(f_in, f_out)
-            data_file = outfile
-
-        # Transform to obojson if needed
-        # Need to set up ROBOT first
-        if data_file[-4:] == ".owl":
-            convert_to_json("data/raw/", "chebi") # Use the downloaded ROBOT
-            data_file = data_file[:-4] + ".json"
 
         transform(inputs=[data_file], 
-                    input_format='obojson',
+                    input_format='tsv',
+                    input_compression='tar.gz',
                     output= os.path.join(self.output_dir, name), 
                     output_format='tsv')

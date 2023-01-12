@@ -1,0 +1,21 @@
+name: 'nutrient_to_chebi_map'
+
+metadata:
+  description: 'File for mapping nutrient id to chebi id'
+
+format: 'csv'
+delimiter: '\t'
+
+files:
+  - './kg_pegs/transform_utils/nutrient_USDA/translation_map_nutrients.yaml'
+
+header: 'none'
+
+columns:
+  - 'nutrient_id'
+  - 'chebi_id'
+
+key: 'nutrient_id'
+
+values:
+  - 'chebi_id'

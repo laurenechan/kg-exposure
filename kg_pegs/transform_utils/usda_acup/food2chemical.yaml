@@ -5,7 +5,7 @@ format: 'csv'
 delimiter: ','
 
 files:
-  - './data/fruit_fungicides_EDITED.csv'
+  - './data/raw/fruit_fungicides_EDITED.csv'
 
 metadata: './kg_pegs/transform_utils/usda_acup/metadata.yaml'
 

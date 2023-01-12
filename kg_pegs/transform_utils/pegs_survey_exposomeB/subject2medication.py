@@ -27,15 +27,16 @@ medication_columns = ["eb_b032a_med1_name_CHILDQ",
 for col in medication_columns:
     respondent = 'epr_number:' + row['epr_number']
     answer = row[col]
-    chebi_id = medication2chebi[answer]["chemical"]
-    if answer is not None and chebi_id is not None:
-        koza_app.write(Association(
-            id="uuid:" + str(uuid.uuid1()),
-            subject=respondent,
-            predicate=Predicate.affected_by,
-            object=chebi_id,
-            source=source_name
-        ))
-    else:
-        print(f"Could not find CHEBI for {answer}")
+    if answer != '.S' and answer != '.M':
+        chebi_id = medication2chebi[answer.lower()]["chemical"]
+        if answer is not None and chebi_id is not None:
+            koza_app.write(Association(
+                id="uuid:" + str(uuid.uuid1()),
+                subject=respondent,
+                predicate=Predicate.affected_by,
+                object=chebi_id,
+                source=source_name
+            ))
+        else:
+            print(f"Could not find CHEBI for {answer}")
 
