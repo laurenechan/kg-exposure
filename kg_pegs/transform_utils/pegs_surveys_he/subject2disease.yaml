@@ -2,10 +2,10 @@ name: 'subject2disease'
 
 format: 'csv'
 
-delimiter: ','
+delimiter: '\t'
 
 files:
-  - './data/raw/testEPRsubject2disease.csv'
+  - './data/raw/epr.he.tsv'
 
 metadata: './kg_pegs/transform_utils/pegs_surveys_he/metadata.yaml'
 

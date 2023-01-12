@@ -1,7 +1,7 @@
-name: 'pegs_survey_he'
+name: 'pegs_survey'
 
 dataset_description:
-  ingest_title: 'pegs_survey_he'
+  ingest_title: 'pegs_survey_expb'
   description: 'pegs_survey data files'
   #rights: 'https://reactome.org/license'
 

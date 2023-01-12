@@ -1,18 +1,15 @@
-name: 'pegsexb_subject2medication'
+name: 'subject2exposure'
 
 format: 'csv'
 
 delimiter: '\t'
 
 files:
-  - ''./data/raw/epr.eb.tsv'
+  - './data/raw/epr.eb.tsv'
 
-depends_on:
-  - ''./kg_pegs/transform_utils/pegs_survey_exposomeB/reported_medication_to_chebi_map.yaml'
+metadata: './kg_pegs/transform_utils/pegs_surveys_exposomeB/metadata.yaml'
 
-header: 'infer'
-
-global_table: 'kg_pegs/transform_utils/translation_table.yaml'
+local_table: './kg_pegs/transform_utils/pegs_survey_exposomeB/translation_map_ExpB.yaml'
 
 columns:
   - 'epr_number'
@@ -739,6 +736,7 @@ columns:
   - 'eb_m327_baby_late_gt2m_derived1h'
   - 'eb_m327_baby_late_gt2m_num_derived2h'
   - 'eb_closing_comments'
+
 
 edge_properties:
   - 'id'

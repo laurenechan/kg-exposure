@@ -5,9 +5,19 @@ from typing import List
 
 from kg_pegs.transform_utils.ontology.ontology_transform import ONTOLOGIES
 from kg_pegs.transform_utils.pegs_surveys_he.pegs_surveys_he import PegsSurveysTransform
+from kg_pegs.transform_utils.ontology import OntologyTransform
+from kg_pegs.transform_utils.ontology.ontology_transform import ONTOLOGIES
 
 DATA_SOURCES = {
-    'PegsSurveysTransform': PegsSurveysTransform
+    'PegsSurveysTransform': PegsSurveysTransform,
+    'MondoTransform': OntologyTransform,
+    'ChebiTransform': OntologyTransform,
+    'EnvoTransform': OntologyTransform,
+    'HpTransform': OntologyTransform,
+    'EctoTransform': OntologyTransform,
+    'MaxoTransform': OntologyTransform,
+    'FoodonTransform': OntologyTransform
+
 }
 
 def transform(input_dir: str, output_dir: str, sources: List[str] = None) -> None:

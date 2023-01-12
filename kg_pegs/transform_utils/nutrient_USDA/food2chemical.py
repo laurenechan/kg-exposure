@@ -8,6 +8,9 @@ from biolink_model_pydantic.model import ( #type: ignore
 
 from koza.cli_runner import koza_app
 
+map_dict = koza_app.get_map("fdcid_to_foodon_map")
+map_dict_2 = koza_app.get_map("nutrient_to_chebi_map")
+
 logger = logging.getLogger(__name__)
 
 source_name = "nutrient_food2chemical"

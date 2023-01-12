@@ -5,7 +5,7 @@ format: 'csv'
 delimiter: ','
 
 files:
-  - './data/food_nutrient_raw_data.csv'
+  - './data//raw/food_nutrient_raw_data.csv'
 
 header: 'infer'
 
@@ -34,6 +34,10 @@ edge_properties:
   - 'relation'
   - 'source'
   - 'provided_by'
+
+depends_on:
+  - './kg_pegs/transform_utils/nutrient_USDA/fdcid_to_foodon.yaml'
+  - './kg_pegs/transform_utils/nutrient_USDA/nutrient_to_chebi.yaml'
 
 transform_mode: 'flat'
 

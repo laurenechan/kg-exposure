@@ -11,8 +11,9 @@ source_name="subject2phenotype"
 full_source_name="pegs_survey"
 
 row = koza_app.get_row(source_name)
+print(row.keys)
 respondent = 'epr_number:' + row['epr_number']
-for col in [x for x in row.keys() if x != 'epr_number']:
+for col in [x for x in row.keys() if x in ##list of names you want != 'epr_number']:
     if str(row[col]) == '1':
         hp_curie = koza_app.translation_table.resolve_term(col)
         # # Association
