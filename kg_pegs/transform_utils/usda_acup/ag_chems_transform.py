@@ -9,32 +9,24 @@ from koza.cli_runner import transform_source #type: ignore
 
 
 PEGS_SOURCES = {
-    'survey_respondent': 'testEPRsurvey_respondents.csv',
-    'subject2phenotype': 'testEPRsubject2phenotype.csv',
-    'subject2disease': 'testEPRsubject2disease.csv',
-    'subject2exposure': 'testEPRsubject2exposure.csv',
-    'subject2medaction': 'testEPRsubject2medaction.csv'
+    'food2chemical': 'fruit_fungicides_EDITED.csv'
 }
 
 PEGS_CONFIGS = {
-    'survey_respondent': 'survey_respondents.yaml',
-    'subject2phenotype': 'subject2phenotype.yaml',
-    'subject2disease': 'subject2disease.yaml',
-    'subject2exposure': 'subject2exposure.yaml',
-    'subject2medaction': 'subject2medaction.yaml'
+    'food2chemical': 'food2chemical.yaml',
 }
 
 
 TRANSLATION_TABLE = "./kg_pegs/transform_utils/translation_table.yaml"
-LOCAL_TABLE = "./kg_pegs/transform_utils/pegs_surveys_he/translation_map_he.yaml"
+LOCAL_TABLE = None
 
 
-class PegsSurveysTransform(Transform):
-    """ This transform handles the Pegs Survey Subject 2 Phenotype Association INgest
+class AgChemTransform(Transform):
+    """ This transform handles the agricultural chemical to food Association INgest
     """
 
     def __init__(self, input_dir: str = None, output_dir: str = None) -> None:
-        source_name = "pegs_surveys_he"
+        source_name = "usda_acup"
         super().__init__(source_name, input_dir, output_dir)
 
     def run(self, pegs_file: Optional[str] = None) -> None:  # type: ignore
@@ -58,7 +50,7 @@ class PegsSurveysTransform(Transform):
         Pegs parser
         """
         print(f"Parsing {data_file}")
-        config = os.path.join("kg_pegs/transform_utils/pegs_surveys_he/",
+        config = os.path.join("kg_pegs/transform_utils/usda_acup/",
                               PEGS_CONFIGS[source])
         output = self.output_dir
         # If source is unknown then we aren't going to guess

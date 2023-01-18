@@ -4,20 +4,27 @@ import logging
 from typing import List
 
 from kg_pegs.transform_utils.ontology.ontology_transform import ONTOLOGIES
-from kg_pegs.transform_utils.pegs_surveys_he.pegs_surveys_he import PegsSurveysTransform
+from kg_pegs.transform_utils.pegs_surveys_he.pegs_surveys_he import PegsSurveysTransform as PegsSurveysTransformHe
+from kg_pegs.transform_utils.pegs_surveys_exposomeA.pegs_surveys_exposomeA import PegsSurveysTransform as PegsSurveysTransformExpA
+from kg_pegs.transform_utils.pegs_surveys_exposomeB.pegs_surveys_exposomeB import PegsSurveysTransform as PegsSurveysTransformExpB
+from kg_pegs.transform_utils.usda_acup.ag_chems_transform import AgChemTransform as AgChemTransform
+
 from kg_pegs.transform_utils.ontology import OntologyTransform
 from kg_pegs.transform_utils.ontology.ontology_transform import ONTOLOGIES
 
 DATA_SOURCES = {
-    'PegsSurveysTransform': PegsSurveysTransform,
+    'PegsSurveysTransformHe': PegsSurveysTransformHe,
+    'PegsSurveysTransformExpA': PegsSurveysTransformExpA,
+    'PegsSurveysTransformExpB': PegsSurveysTransformExpB,
+    'AgChemTransform': AgChemTransform,
     'MondoTransform': OntologyTransform,
     'ChebiTransform': OntologyTransform,
     'EnvoTransform': OntologyTransform,
     'HpTransform': OntologyTransform,
     'EctoTransform': OntologyTransform,
     'MaxoTransform': OntologyTransform,
-    'FoodonTransform': OntologyTransform
-
+    'FoodonTransform': OntologyTransform,
+    'GOTransform': OntologyTransform
 }
 
 def transform(input_dir: str, output_dir: str, sources: List[str] = None) -> None:

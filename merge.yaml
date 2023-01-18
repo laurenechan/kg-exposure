@@ -6,27 +6,121 @@ configuration:
 merged_graph:
   name: kg_pegs graph
   source:
+    pegs_expa_subject2exposure:
+      name: "pegs_expa_subject2exposure"
+      input:
+        format: tsv
+        filename:
+          - data/transformed/pegs_surveys_expa/subject2exposure_edges.tsv
+    pegs_expa_respondents:
+      name: "pegs_expa_respondents"
+      input:
+        format: tsv
+        filename:
+          - data/transformed/pegs_surveys_expa/survey_respondents_nodes.tsv
+    pegs_expb_subject2exposure:
+      name: "pegs_expb_subject2exposure"
+      input:
+        format: tsv
+        filename:
+          - data/transformed/pegs_surveys_expb/subject2exposure_edges.tsv
+    pegs_expb_respondents:
+      name: "pegs_expb_respondents"
+      input:
+        format: tsv
+        filename:
+          - data/transformed/pegs_surveys_expb/survey_respondents_nodes.tsv
+    pegs_expb_medications:
+      name: "pegs_expb_medications"
+      input:
+        format: tsv
+        filename:
+          - data/transformed/pegs_surveys_expb/pegsexb_subject2medication_edges.tsv
+    pegs_exphe_subject2diasease:
+      name: "pegs_exphe_subject2disease"
+      input:
+        format: tsv
+        filename:
+          - data/transformed/pegs_surveys_he/subject2disease_edges.tsv
+    pegs_exphe_subject2exposure:
+      name: "pegs_exphe_subject2exposure"
+      input:
+        format: tsv
+        filename:
+          - data/transformed/pegs_surveys_he/subject2exposure_edges.tsv
+    pegs_exphe_subject2medaction:
+      name: "pegs_exphe_subject2medaction"
+      input:
+        format: tsv
+        filename:
+          - data/transformed/pegs_surveys_he/subject2medaction_edges.tsv
+    pegs_exphe_subject2phenotype:
+      name: "pegs_exphe_subject2phenotype"
+      input:
+        format: tsv
+        filename:
+          - data/transformed/pegs_surveys_he/subject2phenotype_edges.tsv
+    pegs_exphe_subject2process:
+      name: "pegs_exphe_subject2process"
+      input:
+        format: tsv
+        filename:
+          - data/transformed/pegs_surveys_he/subject2process_edges.tsv
+    pegs_exphe_respondents:
+      name: "pegs_exphe_respondents"
+      input:
+        format: tsv
+        filename:
+          - data/transformed/pegs_surveys_he/survey_respondents_nodes.tsv
     chebi:
       name: "CHEBI"
       input:
         format: tsv
         filename:
-          - data/transformed/ontologies/chebi_nodes.tsv
-          - data/transformed/ontologies/chebi_edges.tsv
+          - data/transformed/ontologies/chebi_kgx_tsv_nodes.tsv
+          - data/transformed/ontologies/chebi_kgx_tsv_edges.tsv
     envo:
       name: "ENVO"
       input:
         format: tsv
         filename:
-          - data/transformed/ontologies/envo_nodes.tsv
-          - data/transformed/ontologies/envo_edges.tsv
-    chebi_to_reactome:
-      name: "CHEBI to Reactome Pathways"
+          - data/transformed/ontologies/envo_kgx_tsv_edges.tsv
+          - data/transformed/ontologies/envo_kgx_tsv_nodes.tsv
+    ecto:
+      name: "ECTO"
       input:
         format: tsv
         filename:
-          - data/transformed/reactome/chebi2reactome_nodes.tsv
-          - data/transformed/reactome/chebi2reactome_edges.tsv
+          - data/transformed/ontologies/ecto_kgx_tsv_edges.tsv
+          - data/transformed/ontologies/ecto_kgx_tsv_nodes.tsv
+    foodon:
+      name: "FOODON"
+      input:
+        format: tsv
+        filename:
+          - data/transformed/ontologies/foodon_kgx_tsv_edges.tsv
+          - data/transformed/ontologies/foodon_kgx_tsv_nodes.tsv
+    hp:
+      name: "HP"
+      input:
+        format: tsv
+        filename:
+          - data/transformed/ontologies/hp_kgx_tsv_edges.tsv
+          - data/transformed/ontologies/hp_kgx_tsv_nodes.tsv
+    maxo:
+      name: "MAXO"
+      input:
+        format: tsv
+        filename:
+          - data/transformed/ontologies/maxo_kgx_tsv_edges.tsv
+          - data/transformed/ontologies/maxo_kgx_tsv_nodes.tsv
+    go:
+      name: "GO"
+      input:
+        format: tsv
+        filename:
+          - data/transformed/ontologies/GoTransform_edges.tsv
+          - data/transformed/ontologies/GoTransform_nodes.tsv
   operations:
     - name: kgx.graph_operations.summarize_graph.generate_graph_stats
       args:
@@ -42,7 +136,3 @@ merged_graph:
       format: tsv
       compression: tar.gz
       filename: merged-kg
-    merged-kg-nt:
-      format: nt
-      compression: gz
-      filename: kg_pegs.nt.gz

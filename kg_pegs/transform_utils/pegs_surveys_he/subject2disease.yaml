@@ -58,6 +58,7 @@ edge_properties:
   - 'relation'
   - 'source'
   - 'provided_by'
+  - 'qualifiers'
 
 transform_mode: 'flat'
 

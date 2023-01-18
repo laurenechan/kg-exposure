@@ -14,12 +14,12 @@ ea_b104a_bleach: ECTO:9000076
 ea_b104b_ammonia: ECTO:9000031
 ea_b104c_carbon_tetrachloride: ECTO:9000048
 ea_b110_metal_d: ECTO:9002163
-ea_b110a_arsenic: ECTO_9000032
+ea_b110a_arsenic: ECTO:9000032
 ea_b110b_beryllium: ECTO:9000941
-ea_b110c_cadmium: ECTO_0001566
+ea_b110c_cadmium: ECTO:0001566
 ea_b110d_chromates: ECTO:9000038
-ea_b110e_lead: ECTO_9000945
-ea_b110f_mercury: ECTO_0001571
+ea_b110e_lead: ECTO:9000945
+ea_b110f_mercury: ECTO:0001571
 ea_b110g_nickel: ECTO:9000063
 ea_b116_alcohol_d: ECTO:9000026
 ea_b116a_isopropanol: ECTO:9000099

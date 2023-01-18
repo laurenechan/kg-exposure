@@ -6,7 +6,7 @@ metadata:
 delimiter: '\t'
 
 files:
-  - './kg_pegs/transform_utils/pegs_survey_exposomeB/reported_medication_name_to_chebi.tsv'
+  - './kg_pegs/transform_utils/pegs_surveys_exposomeB/reported_medication_name_to_chebi.tsv'
 
 header: infer
 

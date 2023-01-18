@@ -1,4 +1,4 @@
-from .pegs_surveys_he import PegsSurveysTransform
+from .pegs_surveys_exposomeA import PegsSurveysTransform
 
 __all__ = [
 	"PegsSurveysTransform"

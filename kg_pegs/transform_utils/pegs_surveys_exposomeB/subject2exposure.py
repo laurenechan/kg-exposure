@@ -12,13 +12,10 @@ full_source_name = "pegs_survey"
 
 row = koza_app.get_row(source_name)
 respondent = 'epr_number:' + row['epr_number']
-cols = [x for x in row.keys() if x != 'epr_number']
-
-for col in cols:
+for col in [x for x in row.keys() if x != 'epr_number']:
     if str(row[col]) == '1':
         try:
-            ecto_curie = koza_app.translation_table.resolve_term(col.replace('_CHILDQ', '').replace('_PARQ', ''))
-            print(ecto_curie)
+            ecto_curie = koza_app.translation_table.resolve_term(col)
             association = Association(
                 id="uuid:" + str(uuid.uuid1()),
                 subject=respondent,

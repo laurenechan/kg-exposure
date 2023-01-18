@@ -16,7 +16,8 @@ ONTOLOGIES = {
     'HpTransform': 'hp_kgx_tsv.tar.gz',
     'EctoTransform': 'ecto_kgx_tsv.tar.gz',
     'MaxoTransform': 'maxo_kgx_tsv.tar.gz',
-    'FoodonTransform': 'foodon_kgx_tsv.tar.gz'
+    'FoodonTransform': 'foodon_kgx_tsv.tar.gz',
+    'GoTransform': 'go_kgx_tsv.tar.gz'
 }
 
 class OntologyTransform(Transform):

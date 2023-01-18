@@ -71,6 +71,11 @@
   url: https://kg-hub.berkeleybop.io/kg-obo/ecto/2022-08-12/ecto_kgx_tsv.tar.gz
   local_name: ecto_kgx_tsv.tar.gz
 
+# GO
+-
+  url: https://kg-hub.berkeleybop.io/kg-obo/go/2022-11-03/go_kgx_tsv.tar.gz
+  local_name: go_kgx_tsv.tar.gz
+
 # **** Data sources ****
 #
 # Reactome 
