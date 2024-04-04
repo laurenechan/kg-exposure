@@ -68,7 +68,7 @@ he_m087_birth_control: ECTO:9001831
 he_m088_hormone_replacement: ECTO:2000005
 he_m089_endometriosis: MONDO:0005133
 he_m090_uterine_polyps: MONDO:0006195
-he_m091_uterine_tumors: HP:0010784
+he_m091_uterine_tumors: HP:0000131
 he_m092_ovarian_cysts: HP:0000138
 he_o108_cancer_breast_PARQ_CHILDQ: MONDO:0007254
 he_o109_cancer_cervix_PARQ_CHILDQ: MONDO:0002974
