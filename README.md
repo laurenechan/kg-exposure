@@ -1,33 +1,4 @@
-Download-Transform-Merge Template
+KG - Exposure
 ================================================
-KG hub template for tools to generate knowledge graphs for projects
+This directory includes code for the development of a knowledge graph (KG) developed using the KG hub template, using data from the Personalized Environments and Genes Study from NIEHS (https://joinastudy.niehs.nih.gov/studies/pegs) for a hypothesis generation investigation of how nutrition and environmental exposures impact female reproductive disorders. Data from PEGS is available by request to NIEHS. Additionally, this repository includes scripts used to complete logistic regressions and random forest based analyses for comparison to the KG findings.
 
-Documentation
-------------------------------------------------
-
-This template could be used for data ingestion for varied sources.
-
-**Components**
-
-- Download: The [download.yaml](download.yaml) contains all the URLs for the source data.
-- Transform: The [transform_utils](kg_pegs/transform_utils) contains the code relevant to trnsformations of the raw data into nodes and edges (tsv format)
-- Merge: Implementation of the 'merge' function from [KGX](https://github.com/biolink/kgx) using [merge.yaml](merge.yaml) as a source file.
-
-**Utilities**
-
-The code for these are found in the [utils](kg_pegs/utils) folder.
-
-- [ROBOT](https://github.com/ontodev/robot) for transforming ontology.OWL to ontology.JSON
-
-**Examples Included**
-
-Thes examples have download links and transform codes from other projects.
-
-- Ontology: Sampled from [kg-covid-19](https://github.com/Knowledge-Graph-Hub/kg-covid-19). Code located [here](kg_pegs/transform_utils/ontology)
-- Example Transform: Sampled from [kg-covid-19](https://github.com/Knowledge-Graph-Hub/kg-covid-19). Code located [here](kg_pegs/transform_utils/drug_central).
-
-The [merge.yaml](merge.yaml) shows merging of the various KGs. In this example we have ENVO, CHEBI, NCBITaxon and the Traits KGs merged.
-
-**Implementation**
-
-[Use this template](https://github.com/Knowledge-Graph-Hub/kg-dtm-template/generate) to generate a template in the desired repository and then refactor the string `project_name` in the project to the desired project name. 
